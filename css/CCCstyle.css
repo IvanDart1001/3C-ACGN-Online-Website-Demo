@@ -1,0 +1,5615 @@
+﻿@font-face{
+    font-family:GOTHIC;
+    src:url(/skins/fonts/GOTHIC.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:GOTHICB;
+    src:url(/skins/fonts/GOTHICB.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:GOTHICBI;
+    src:url(/skins/fonts/GOTHICBI.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:GOTHICI;
+    src:url(/skins/fonts/GOTHICI.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:IMPACT;
+    src:url(/skins/fonts/IMPACT.ttf) format('truetype');
+}
+
+@font-face{
+    font-family:MISSYUAN_1;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 1.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_2;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 2.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_3;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 3.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_4;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 4.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_5;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 5.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_6;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 6.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_7;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 7.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_8;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑 8.otf') format('opentype');
+}
+
+@font-face{
+    font-family:MISSYUAN_COMMON;
+    src:url('/skins/fonts/MISSYUAN_造字工房悦黑常规.otf') format('opentype');
+}
+
+body{
+    background-color:#ededed;
+}
+
+#CCC-link{
+    text-decoration: none;
+    cursor: inherit;
+}
+
+/*----↓ 2016/4 新增 By YQ -----*/ 
+.Q-center{
+    text-align:center;
+}
+
+.Q-btnBlue{
+    width: 250px;
+    height: 38px;
+    margin-top: 20px;
+    font-size:20px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#0099FF;
+    color:white;
+}
+.Q-btnOrange{
+    width: 183px;
+    height: 31px;
+    font-size:18px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#FFCC00;
+    color:white;
+}
+
+.Q-MCbody{
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    background: white;
+    padding-top:50px;
+}
+
+.Q-MCdays{
+    width: 500px;
+    height: 220px;
+    margin: 0 auto;
+    font-size: 100px;
+    font-family: "GOTHIC",Arial,Helvetica,sans-serif;
+    padding-top: 80px;
+    color: black;
+}
+
+.Q-MCdaynum{
+    font-family: "Impact",Arial,Helvetica,sans-serif;
+    color:#0099FF;
+}
+
+
+.Q-MCFormBox{
+    position: relative;
+    width: 600px;
+    height: 260px;
+    margin: 0 auto;
+}
+.Q-MCFormIcon{
+    float: left;
+    margin-top: 60px;
+    width: 200px;
+    height: 200px; 
+}
+.Q-MCInfo{
+    float: left;
+    margin-top: 60px;
+    width: 400px;
+    height: 200px;
+}
+.Q-MCEditBtn{
+    float: right;
+}
+.Q-MCInfoText{
+    width: 380px;
+    height: 160px;
+    margin: 70px 0 0 20px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+.Q-MCRrgIcon{
+    width: 200px;
+    height: 200px;
+}
+.Q-UserInnerBody{
+    position: relative;
+    width: 1200px;
+    overflow:hidden;
+    margin:0 auto;
+    background: white;
+}
+.Q-UserInnerBtn{
+    position: relative;
+    width: 1010px;
+    height: 110px; 
+    padding-top: 40px;
+    margin: auto 95px;
+}
+#Q-UserInnerBtnL{
+    float: left;
+    margin-left: 360px;
+    width: 160px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size:25px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#e6e6e6;
+    color:#b3b3b3;
+    text-align:center;
+}
+#Q-UserInnerBtnLAct,#Q-UserInnerBtnL:hover{
+    margin-left: 360px;
+    float: left;
+    width: 160px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size:25px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#0099FF;
+    color:white;
+    text-align:center;
+}
+#Q-UserInnerBtnR{
+    float: left;
+    width: 160px;
+    height: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size:25px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#e6e6e6;
+    color:#b3b3b3;
+    text-align:center;
+}
+#Q-UserInnerBtnRAct,#Q-UserInnerBtnR:hover{
+    float: left;
+    width: 160px;
+    height: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size:25px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    border:none;
+    background:#0099FF;
+    color:white;
+    text-align:center;
+}
+.Q-UserInnerNavbar{
+    position: relative;
+    width: 1030px;
+    height:125px;
+    margin: auto 85px;
+    /*background: red;*/
+}
+.Q-UserInnerNavbar1{
+    width: 1030px;
+    height:35px;
+    display: inline-block;
+    padding-left: 8px;
+    border-bottom: 1px solid gray;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+.Q-UINBtn{
+    display: inline-block;
+    border: none;
+    /*position: relative;*/
+    float: left;
+    margin: 0px 10px;
+    padding: 0 10px;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    font:  14px/25px "Microsoft YaHei",Arial,Helvetica,sans-serif;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.Q-UINBtnOn{
+    display: none;
+    /*visibility="hidden";*/
+    border: none;
+    /*position: relative;*/
+    float: left;
+    margin: 0px 10px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #0099FF;
+    font:  14px/25px "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.Q-UINBtnAct{
+    border: none;
+    /*position: relative;*/
+    float: left;
+    margin: 0px 10px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #0099FF;
+    font:  14px/25px "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+.Q-UINBtnIcon{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    width: 23px;
+    height: 23px;
+}
+
+.Q-UINBtnIcon img{
+    max-width:100%;
+}
+
+/*.Q-UINBtn:hover{
+    background: #0099FF;
+    color:white;
+}*/
+.Q-UserInnerNavbar2{
+    width: 1030px;
+    height:45px;
+    padding-left: 8px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+.Q-SelectTextPosition{
+    width: 90px;
+    line-height: 35px;
+    float:left;
+}
+.Q-SelectFormStyle{
+    display:block;
+    width: 700px;
+    height: 35px;
+    float:left;
+}
+.Q-SelectPosition{
+    display:block;
+    width: 150px;
+    line-height: 35px;
+    padding-top: 6px;
+    float:left;
+}
+.Q-UserTopicList{
+    position: relative;
+    overflow:hidden;
+    width: 1040px;
+    margin: auto 80px;
+}
+.Q-mainContainer-topic-tile{
+    float:left;
+    height:346px;
+    width:236px;
+    margin:0px 12px 19px 12px;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    border:3px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+.Q-WorksBox{
+    width: 1030px;
+    height: 235px;
+    margin:25px 85px;
+}
+.Q-WorksL{
+    background-image:url(/skins/pic/sampleAvatar1.gif);
+    width: 235px;
+    height: 235px;
+    float: left;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.Q-WorksR{
+    width: 795px;
+    height: 235px;
+    float: left;
+}
+.Q-WorksRU{
+    width: 795px;
+    height: 185px;
+    position:relative;
+}
+.Q-WorksType{
+    width: 60px;
+    height: 120px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 22px;
+}
+.Q-WorksTitle{
+    width: 295px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 25px;
+    float: left;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.Q-WorksEdit{
+    width: 175px;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: -30px;
+    float: right;
+}
+.Q-WorksRD{
+    width: 795px;
+    height: 50px;
+    position:relative;
+}
+
+.Q-mainContainer-topic-tile:hover{
+    border:3px solid #0099FF;
+}
+/*----↑新增-----*/
+
+.CCC-header-bg{
+    height:100px;
+    background:#00141c;
+    margin-bottom:-100px;
+}
+
+@media(max-width:1200px) {
+    .CCC-header-bg {
+        height: 100px;
+        background: #00141c;
+        margin-bottom: -100px;
+        width:1200px;
+    }
+}
+
+.CCC-header{
+    height:100px;
+    width:1200px;
+    position:relative;
+    margin:0 auto;
+    align-self: center;
+}
+
+.CCC-page-title-pic{
+    background:url(/skins/pic/logo.png) no-repeat;
+    height:54px;
+    width:150px;
+    float:left;
+    background-size:contain;
+    margin-top:20px;
+    margin-right:45px;
+}
+
+.CCC-nav{
+    width:auto;
+    padding-top:50px;
+    float:left;
+}
+
+.CCC-nav-tag{
+    float: left;
+    width: auto;
+    text-align:center;
+    display:block;
+    color: white;
+    font-size: 18px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    padding: 0px 20px 19.4px 20px;
+    border-bottom: 5px solid rgba(0,0,0,0.0);
+    transition: color 0.5s,border-bottom 0.37s;
+    -moz-transition: color 0.5s,border-bottom 0.37s;
+    -webkit-transition: color 0.5s,border-bottom 0.37s;
+}
+
+.CCC-nav-tag:hover{
+    color:#0099FF;
+    border-bottom:5px solid #0099FF;
+}
+
+.CCC-search{
+    float:left;
+    width:auto;
+    margin-left: 30px;
+}
+
+.CCC-search-keyword{
+    float:left;
+    width: 200px;
+    background: rgba(0,153,255,0.20);
+    outline:none;
+    border-radius: 17px;
+    height: 29px;
+    margin-top:-2px;
+    border:0;
+    padding-left:20px;
+    color:white;
+}
+
+.CCC-search-launch{
+    background: url(/skins/pic/lens.png);
+    width:19.999px;
+    height:19.999px;
+    margin-top: 1px;
+    margin-left: -32px;
+    border:0;
+    outline:none;
+}
+
+.CCC-account-tag{
+    float:left;
+    margin-left: 90px;
+    color: white;
+    font-size: 18px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.CCC-account-tag-btn{
+    float: left;
+    padding:0 3px 0 3px;
+    width: auto;
+    text-align:center;
+    color: white;
+    font-size: 18px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+}
+
+.CCC-account-tag-btn:hover{
+    color:#0099FF;
+}
+
+#CCC-nav-publishBtn{
+    position:absolute;
+    left:1109px;
+    display: block;
+    background: url(/skins/pic/publish.png);
+    background-size: 91px;
+    width: 91px;
+    height: 121.3333333px;
+    cursor: pointer;
+    z-index:1;
+}
+
+.CCC-account-bar{
+    float:left;
+    height:100px;
+    width:auto;
+}
+
+.CCC-account-bar-icon{
+    float:right;
+    width:auto;
+    height:100px;
+}
+
+#CCC-account-bar-icon1{
+    width: 48px;
+    height: 59px;
+    display: block;
+    background-image: url(/skins/pic/head.png);
+    background-size: 48px;
+    background-repeat: no-repeat;
+    margin-left: 33px;
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+#CCC-account-bar-icon2{
+    width: 34px;
+    height: 33px;
+    display: block;
+    background-image: url(/skins/pic/mes.png);
+    background-repeat: no-repeat;
+    background-size: 34px;
+    margin-left: 27px;
+    margin-top: 39px;
+    cursor:pointer;
+}
+
+#CCC-account-bar-icon3{
+    width: 34px;
+    height: 33px;
+    display: block;
+    background-image: url(/skins/pic/col.png);
+    background-repeat: no-repeat;
+    background-size: 34px;
+    margin-left: 27px;
+    margin-top: 39px;
+    cursor:pointer;
+}
+
+#CCC-colorful-egg{
+    cursor:none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.CCC-footer-bg{
+    height:300px;
+    background:#00141c;
+    margin-bottom:-300px;
+}
+
+#CCC-footer-bg1{
+    height:150px;
+}
+
+#CCC-footer-bg2{
+    height:99px;
+    border-top:1px solid #00435E;
+    background:#002A3B;
+}
+
+#CCC-footer-bg3{
+    height:50px;
+}
+
+@media(max-width:1200px) {
+    .CCC-footer-bg {
+        height: 300px;
+        background: #00141c;
+        margin-bottom: -300px;
+        width:1200px;
+    }
+}
+
+.CCC-footer-bar{
+    height:300px;
+    width:1200px;
+    position:relative;
+    margin:0 auto;
+    align-self: center;
+    bottom:0;
+    background-color:transparent;
+    text-align:center;
+}
+
+#CCC-footer-bar1{
+    height:150px;
+    width:1200px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#CCC-footer-bar2{
+    height:100px;
+    width:1200px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#CCC-footer-bar3{
+    height:50px;
+    width:1200px;
+    text-align:center;
+    margin:0 auto;
+    padding-top:9px;
+}
+
+.CCC-footer-slogan{
+    background:url(/skins/pic/TIT.png);
+    transform:scale(0.7,0.7);
+    width:655px;
+    height:57px;
+    position:relative;
+    margin:0 auto 0 auto;
+}
+
+.CCC-footer-info{
+    color: white;
+    font-size: 18px;
+    font-family: "MISSYUAN_COMMON",Arial,Helvetica,sans-serif;
+    transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+}
+
+.CCC-footer-info:hover{
+    color:#0099FF;
+}
+
+.CCC-footer-info-nav{
+    margin-top:18px;
+}
+
+.CCC-footer-info-nav-tag{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:#999999;
+    transition:color 0.5s;
+}
+
+.CCC-footer-info-nav-tag:hover{
+    color:white;
+}
+
+.CCC-footer-bar-pub{
+    margin:0 auto 0 auto;
+    height:60px;
+    width:428px;
+    padding-top:28px;
+}
+
+.CCC-footer-pub-tag{
+    float: left;
+    background: url(/skins/pic/pub2.png);
+    width: 47px;
+    height: 47px;
+    margin:0px 30px 0px 30px;
+    text-decoration: none;
+    color: inherit;
+    cursor: inherit;
+    transition:background 0.5s;
+    -moz-transition:background 0.5s;
+    -o-transition:background 0.5s;
+    -webkit-transition:background 0.5s;
+}
+
+.CCC-footer-pub-tag:hover{
+    float: left;
+    background: url(/skins/pic/pub1.png);
+    width: 47px;
+    height: 47px;
+}
+
+#CCC-footer-pub-tag1{
+    background-position:0px 0px;
+}
+
+#CCC-footer-pub-tag2{
+    background-position:191px 0px;
+}
+
+#CCC-footer-pub-tag3{
+    background-position:120px 0px;
+}
+
+#CCC-footer-pub-tag4{
+    background-position:48px 0px;
+}
+
+.CCC-copyright{
+    color: #333333;
+    line-height: 31px;
+}
+
+/*Yooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+/*上面是框架所需全部样式*/
+/*#CCC-fixer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0;
+}*/  /*不到万不得已不用相对于浏览器锁定*/
+
+.CCC-form{
+    margin:106px auto 274px auto;
+    width:350px;
+    text-align:center; 
+}
+
+.CCC-form-logo{
+    margin-bottom:50px;
+}
+
+.CCC-form-lead{
+    font-family: "MISSYUAN_5",Arial,Helvetica,sans-serif;
+}
+
+#CCC-form-title-head{
+    float:left;
+    margin-right: 15px;
+}
+
+#CCC-form-title-login{
+    font-size: 36px;
+    color: white;
+    text-align: left;
+}
+
+#CCC-form-title-explanation{
+    font-size:20px;
+    color:#0099FF;
+    text-align: left;
+}
+
+#CCC-form-input{
+    padding-top:45px;
+    margin-bottom:200px;
+}
+
+.CCC-form-input-box{
+    width:93%;
+    height:40px;
+    margin-bottom:10px;
+    padding-left:43px;
+    font-size: 20px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    border: 2px solid #999999;
+}
+
+.CCC-form-input-btn{
+    width:93%;
+    height:40px;
+    font-size: 20px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    background-color:#0099FF;
+    border: 2px solid #00435E;
+    transition:background-color 0.2s;
+}
+
+.CCC-form-input-btn:hover{
+    background-color:#62c0ff;
+}
+
+#CCC-form-input-icon2{
+    position: absolute;
+    margin-left: -314px;
+    margin-top: 8px;
+}
+
+#CCC-form-input-icon3{
+    position: absolute;
+    margin-left: -313px;
+    margin-top: 8px;
+}
+
+/*YoooOOOOOOooooooooooOOOOOOOOOOooooooooOOOOOOoooooooo*/
+/*上面是登录界面所需全部样式*/
+#CCC-form-title-register{
+    font-size: 36px;
+    color: #555555;
+    text-align: left;
+}
+
+.CCC-form-input-btn1{
+    width:93%;
+    height:40px;
+    font-size: 20px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    margin-bottom:12px;
+    background-color:#0099FF;
+    border: 2px solid #38afff;
+    transition:background-color 0.2s;
+}
+
+.CCC-form-input-btn1:hover{
+    background-color:#62c0ff;
+}
+
+#CCC-form-input-icon1{
+    position: absolute;
+    margin-left: -312px;
+    margin-top: 8px;
+}
+
+/*YooooooOOOOOOOOOOooooooooooooOOOOOOOOOOoooooooo*/
+/*上面是注册界面所需全部样式*/
+
+.CCC-userInfoBar{
+    height: 200px;
+    width: 1200px;
+    position: relative;
+    margin: 8px auto 0 auto;
+    padding: 30px 0 0 0;
+}
+
+.CCC-userInfoBar-title{
+    padding-left:200px;
+    font-family:"GOTHIC",Arial,Helvetica,sans-serif;
+    color:rgba(0, 20, 28, 0.93);
+    font-size:26px;
+    font-weight:bold;
+}
+
+.CCC-userInfoBar-bg{
+    height:125px;
+    margin-bottom:-125px;
+}
+
+#CCC-userInfoBar-bg1{
+    background:#333333;
+}
+
+#CCC-userInfoBar-bg2{
+    background:url('/skins/pic/per banner.png') 100%;
+    width:240px;
+}
+
+.CCC-userInfoBar-container{
+    height:125px;
+}
+
+.CCC-userInfoBar-level{
+    float:left;
+    font-size:20px;
+    font-family:"GOTHICB",Arial,Helvetica,sans-serif;
+    color:white;
+    width:64px;
+}
+
+#CCC-userInfoBar-level1{
+    padding: 94px 0 0 9px;
+}
+
+.CCC-userInfoBar-avatar{
+    float:left;
+    height:248px;
+    width:227px;
+    background:url('/skins/pic/head big.png');
+    transform:scale(0.66);
+    margin-left: -67px;
+    margin-top: -99px;
+}
+
+#CCC-userInfoBar-avatar{
+    -ms-mask-image:url('/skins/pic/head big orin.png');
+    -webkit-mask-image:url('/skins/pic/head big orin.png');
+    -o-mask-image:url('/skins/pic/head big orin.png');
+    -moz-mask-image:url('/skins/pic/head big orin.png');
+}
+
+#CCC-userInfoBar-avatarDefault{
+    height: 260px;
+    width: 227px;
+    margin-left: -67px;
+    margin-top: -101px;
+    margin-right: -227px;
+    transform: scale(0.656);
+}
+
+#CCC-userInfoBar-avatarSettings{
+    height:260px;
+    width:227px;
+    transform:scale(0.656);
+}
+
+#CCC-userInfoBar-mark{
+    float: left;
+    width: 118px;
+    height: 105px;
+    margin: 12px 23px 10px 10px;
+}
+
+.CCC-userInfoBar-status{
+    float: left;
+    height: 125px;
+    width: 180px;
+    padding-top: 20px;
+}
+
+.CCC-userInfoBar-status-tag{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+#CCC-userInfoBar-status-tag1{
+    font-weight:100;
+    margin-right:11px;
+}
+
+#CCC-userInfoBar-status-tag2{
+    font-weight:bold;
+    color:#0099FF;
+}
+
+#CCC-userInfoBar-emphasis1{
+    border-right:1px solid #666666;
+    border-left:1px solid #666666;
+    width: 230px;
+    padding-top: 43px;
+    text-align:center;
+}
+
+#CCC-userInfoBar-emphasis2{
+    width: 205px;
+    padding-top: 46px;
+    text-align: center;
+    padding-left: 31px;
+}
+
+#CCC-userInfoBar-status-tag3{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    font-weight:100;
+    margin-right:15px;
+    font-size:25px;
+}
+
+#CCC-userInfoBar-status-tag4{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    color:#0099FF;
+    font-size:25px;
+}
+
+#CCC-userInfoBar-status-tag5{
+    float: left;
+    margin-right: 19px;
+    margin-top: -6px;
+    height: 42px;
+    width: 42px;
+    background: url('/skins/pic/coin s.png');
+    transform: scale(0.8);
+}
+
+#CCC-userInfoBar-status-tag6{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    font-weight:100;
+    margin-right:15px;
+    font-size:22px;
+}
+
+.CCC-userStatusChart{
+    position: relative;
+    margin:20px auto 0 auto;
+    width:1200px;
+    background:white;
+}
+
+.CCC-userStatusChart-navbar{
+    height:60px;
+    border-bottom:1px solid #999999;
+    padding:8px 51px 0px 51px;
+}
+
+.CCC-userStatusChart-navbar-btn{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 143px;
+    height: 52px;
+    overflow: hidden;
+    /*border-bottom: 7px solid rgba(0,0,0,0.0);
+    transition: border-bottom 0.37s;
+    -moz-transition: border-bottom 0.37s;
+    -webkit-transition: border-bottom 0.37s;*/
+}
+
+.CCC-userStatusChart-navbar-btn-inner{
+    position: relative;
+    width: 143px;
+    height: 104px;
+    /*transition: border-bottom 0.37s;
+    -moz-transition: border-bottom 0.37s;
+    -webkit-transition: border-bottom 0.37s;*/
+}
+
+
+
+/* 新增动画*/
+@keyframes mymove
+{
+from {top:0px;}
+to {top:-52px;}
+}
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+from {top:0px;}
+to {top:-52px;}
+}
+
+.CCC-userStatusChart-navbar-btn-inner:hover{
+    position:relative;
+    animation:mymove 0.3s ;
+    animation-fill-mode:forwards;
+    -webkit-animation:mymove 0.3s; /* Safari and Chrome */
+    -webkit-animation-fill-mode:forwards;
+    /*border-bottom: 7px solid #0099FF;*/
+}
+/*  16/4/1 by YQ  */
+
+
+
+.CCC-userStatusChart-navbar-btn-icon{
+    position:relative;
+    width: 143px;
+    height: 52px;
+}
+
+.CCC-userStatusChart-navbar-btn-words{
+    position:relative;
+    width: 143px;
+    height: 52px;
+    font-size:34px;
+    font-family: "MISSYUAN_5",Arial,Helvetica,sans-serif;
+    color:#666666;
+    border-bottom: 7px solid #0099FF;
+}
+
+#CCC-userStatusChart-navbar-btn-icon1{
+    background:url('../pic/personal s.png') no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-icon2{
+    background:url(../pic/misstitvity.png) no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-icon3{
+    background:url(../pic/icon0005.png) no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-icon4{
+    background:url(../pic/outinfo.png) no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-icon5{
+    background:url(../pic/icon0007.png) no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-icon6{
+    background:url(../pic/MC_ICON.png) no-repeat center center;
+}
+
+#CCC-userStatusChart-navbar-btn-link {
+    text-decoration:none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.CCC-userStatusChart-personalDataBase{
+    position: relative;
+    width: 1200px;
+    height: 2757px;
+    margin: 0 auto 0 auto;
+    background: white;
+}
+
+.CCC-userStatusChart-personalDataBaseUI_version1{
+    float: left;
+    height:675px;
+    width:990px;
+}
+
+.CCC-userStatusChart-verticalBar{
+    float:left;
+    width:273px;
+    padding-top:76px;
+    padding-left:10px;
+    margin-right: -63px;
+}
+
+.CCC-userStatusChart-personalDataBaseUI-DataTagL{
+    position:absolute;
+    color:#333333;
+    width:322px;
+    text-align:right;
+}
+
+.CCC-userStatusChart-personalDataBaseUI-DataTagR{
+    position:absolute;
+    color:#333333;
+    width:322px;
+    text-align:left;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagL-partL{
+    float:left;
+    width:227px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagR-partR{
+    float:right;
+    width:227px;
+}
+
+.CCC-userStatusChart-personalDataBaseUI-DataTag-Data{
+    font-family: "Impact",Arial,Helvetica,sans-serif;
+    margin-bottom: -12px;
+}
+
+.CCC-userStatusChart-personalDataBaseUI-DataTag-marking{
+    font-size:21px;
+    font-family: "GOTHIC",Arial,Helvetica,sans-serif;
+}
+
+.CCC-animation-processArrow{
+    background-image:url('/skins/pic/arrow move.gif');
+    background-repeat:no-repeat;
+    transform:scale(0.8);
+    height:30px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagL-pointLine{
+    float: left;
+    background: url(/skins/pic/line.png) no-repeat;
+    height: 108px;
+    width: 87px;
+    margin-left: 3px;
+    transform: rotateZ(180deg);
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagR-pointLine{
+    float: right;
+    background: url(/skins/pic/line.png) no-repeat;
+    height: 108px;
+    width: 87px;
+    margin-left: 3px;
+    transform: rotateZ(180deg);
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagL1{
+    left: 123px;
+    top: 74px;
+}
+
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagL2{
+    left: 104px;
+    top: 472px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagR1{
+    left: 689px;
+    top: 44px;
+}
+
+
+#CCC-userStatusChart-personalDataBaseUI-DataTagR2{
+    left: 709px;
+    top: 518px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-core{
+    position:absolute;
+    width:601.6px;
+    height:601.6px;
+    background:url('/skins/pic/personal other orin.png') no-repeat;
+    background-size:contain;
+    left: 268px;
+    top: 50px;
+}
+
+.CCC-userStatusChart-personalDataBaseUI-core{
+    float:left;
+    position: relative;
+    height: 601.6px;
+    width: 244px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-core-Blank{
+    width:113.6px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-code{
+    position: absolute;
+    top: 211px;
+    left: 7px;
+    width: 250.3px;
+    height: 100.9px;
+    background: url(/skins/pic/code.png);
+    background-size: contain;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-code-container{
+    margin: 8px 0 0 8px;
+    height: 77px;
+    width: 223px;
+    border-left: 14px solid #333333;
+    padding-left: 10px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-code-containerU{
+    width: 100px;
+    font-family: "Impact",Arial,Helvetica,sans-serif;
+    font-size: 46px;
+    line-height: 36px;
+}
+
+#CCC-userStatusChart-personalDataBaseUI-code-containerD{
+    width: 223px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.CCC-userStatusChart-verticalBar-container{
+    width:273px;
+    height:39px;
+    margin-bottom: 3px;
+}
+
+.CCC-userStatusChart-verticalBar-iconG{
+    float: left;
+    background: url('/skins/pic/job icon g.png');
+    background-size: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+.CCC-userStatusChart-verticalBar-title{
+    float:left;
+    font-family: "GOTHIC",Arial,Helvetica,sans-serif;
+    font-size:15px;
+    margin-left:11px;
+    transform: rotate(-45deg);
+    transform-origin:0% 50%;
+
+    -ms-transform: rotate(-45deg);
+    -ms-transform-origin:0% 50%;
+
+    -webkit-transform: rotate(-45deg);
+    -webkit-transform-origin:0% 50%;
+
+    -moz-transform: rotate(-45deg);
+    -moz-transform-origin:0% 50%;
+
+    -o-transform: rotate(-45deg);
+    -o-transform-origin:0% 50%;
+}
+
+#CCC-userStatusChart-verticalBar-icon1{
+    background-position-y:0px;
+}
+
+#CCC-userStatusChart-verticalBar-icon2{
+    background-position-y:-37px;
+}
+
+#CCC-userStatusChart-verticalBar-icon3{
+    background-position-y:-76px;
+}
+
+#CCC-userStatusChart-verticalBar-icon4{
+    background-position-y:-114px;
+}
+
+#CCC-userStatusChart-verticalBar-icon5{
+    background-position-y:-152px;
+}
+
+#CCC-userStatusChart-verticalBar-icon6{
+    background-position-y:-191px;
+}
+
+#CCC-userStatusChart-verticalBar-icon7{
+    background-position-y:-227px;
+}
+
+#CCC-userStatusChart-verticalBar-icon8{
+    background-position-y:-267px;
+}
+
+#CCC-userStatusChart-verticalBar-icon9{
+    background-position-y:-303px;
+}
+
+#CCC-userStatusChart-verticalBar-icon10{
+    background-position-y:-342px;
+}
+
+#CCC-userStatusChart-verticalBar-icon11{
+    background-position-y:-379px;
+}
+
+#CCC-userStatusChart-verticalBar-icon12{
+    background-position-y:-417px;
+}
+
+#CCC-userStatusChart-verticalBar-icon13{
+    background-position-y:-450px;
+    margin-top: -8px;
+}
+
+.CCC-userStatusChart-monitor{
+    position:absolute;
+    font-family: "Impact",Arial,Helvetica,sans-serif;
+    font-size: 72px;
+    width:601.6px;
+    height:351.2px;
+    top:669px;
+    left:268px;
+}
+
+.CCC-userStatusChart-monitor-card{
+    border-left: 26px solid #333333;
+    padding-left:15px;
+    height:150px;
+}
+
+.CCC-userStatusChart-monitor-cardL{
+    float:left;
+    padding-top:8px;
+    width:345px;
+}
+
+.CCC-userStatusChart-monitor-cardR{
+    float:left;
+    width:215.6px;
+}
+
+.CCC-userStatusChart-monitor-cardLW{
+    line-height:68px;
+}
+
+.CCC-userStatusChart-monitor-cardRW{
+    font-family: "GOTHIC",Arial,Helvetica,sans-serif;
+    font-size:20px;
+    text-align:right;
+    height: 40px;
+}
+
+.CCC-userStatusChart-monitor-slippingBarBox{
+    height:34.6px;
+    width:215.6px;
+}
+
+.CCC-animation-slippingBar{
+    float:right;
+    margin-top:3.3px;
+    margin-bottom:3.3px;
+    height:28px;
+    width:50px;
+    background-color:#ededed;
+    animation-name:slip;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:alternate;
+    -moz-animation-play-state:running;
+    -webkit-animation-name:slip;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+    -o-animation-name:slip;
+    -o-animation-duration: 1.5s;
+    -o-animation-delay: 0.5s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:alternate;
+    -o-animation-play-state:running;
+}
+
+@keyframes slip
+{
+    0% {width:50px;}
+    100% {width:215.6px;}
+}
+
+@-moz-keyframes slip
+{
+    0% {width:50px;}
+    100% {width:215.6px;}
+}
+
+@-webkit-keyframes slip
+{
+    0% {width:50px;}
+    100% {width:215.6px;}
+}
+
+@-o-keyframes slip
+{
+    0% {width:50px;}
+    100% {width:215.6px;}
+}
+
+#CCC-animation-slippingBar1{
+    animation-delay: 1s;
+}
+
+#CCC-animation-slippingBar2{
+    animation-delay: 0.5s;
+}
+
+#CCC-animation-slippingBar3{
+    animation-delay: 1.5s;
+}
+
+.CCC-userStatusChart-monitor-waveBox{
+    width:601.6px;
+    height:168px;
+    margin-top:16px;
+}
+
+.CCC-animation-wave{
+    width:601.6px;
+    height:151.2px;
+    margin-bottom:-151.2px;
+    background-image:url(/skins/pic/waveback.png);
+    background-size:contain;
+    background-repeat:repeat-x;
+    animation-name:wave1;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:linear;
+    -moz-animation-name:wave1;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-play-state:running;
+    -moz-animation-timing-function:linear;
+    -webkit-animation-name:wave1;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-play-state:running;
+    -webkit-animation-timing-function:linear;
+    -o-animation-name:wave1;
+    -o-animation-duration: 1.5s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-play-state:running;
+    -o-animation-timing-function:linear;
+}
+
+#CCC-animation-waveB{
+    animation-name: wave;
+    -moz-animation-name: wave;
+    -webkit-animation-name: wave;
+    -o-animation-name: wave;
+    height: 148.405851px;
+    padding-top: 2.794148936px;
+    margin-bottom: -148.405851px;
+    background-image: url(/skins/pic/waveback1.png);
+    background-position-y: 2.794149px;
+    background-size: 599px;
+}
+
+#CCC-animation-waveF{
+    animation-name:wave;
+    -moz-animation-name:wave;
+    -webkit-animation-name:wave;
+    -o-animation-name:wave;
+    height:148.405851px;
+    padding-top:2.794148936px;
+    margin-bottom:-148.405851px;
+    background-image:url(/skins/pic/wavefront1.png);
+    background-position-y: 2.794149px;
+    background-size: 599px;
+}
+
+.CCC-animation-waveCover{
+    width:601.6px;
+    height:151.2px;
+    background:url('/skins/pic/line form.png');
+    background-size:contain;
+}
+
+@keyframes wave{
+    0% {background-position-x:0px}
+    25% {background-position-x:300px}
+    50% {background-position-x:600px}
+    75% {background-position-x:900px}
+    100% {background-position-x:1200px}
+}
+
+@-moz-keyframes wave{
+    0% {background-position-x:0px}
+    25% {background-position-x:300px}
+    50% {background-position-x:600px}
+    75% {background-position-x:900px}
+    100% {background-position-x:1200px}
+}
+
+@-webkit-keyframes wave{
+    0% {background-position-x:0px}
+    25% {background-position-x:300px}
+    50% {background-position-x:600px}
+    75% {background-position-x:900px}
+    100% {background-position-x:1200px}
+}
+
+@-o-keyframes wave{
+    0% {background-position-x:0px}
+    25% {background-position-x:300px}
+    50% {background-position-x:600px}
+    75% {background-position-x:900px}
+    100% {background-position-x:1200px}
+}
+
+.CCC-userstatuschart-monitor-title{
+    font-family: "Impact",Arial,Helvetica,sans-serif;
+    font-size: 34px;
+    width:601.6px;
+    text-align:right;
+    line-height:12px;
+}
+
+.CCC-userStatusChart-timelineBox{
+    position: absolute;
+    width: 900px;
+    top: 1076px;
+    left: 150px;
+}
+
+.CCC-userStatusChart-timelineBox-title{
+    height:76.5578635px;
+    background:url(/skins/pic/timeline.png) no-repeat;
+    background-size:contain;
+}
+
+.CCC-userStatusChart-timelineBox-timeline-bottom{
+    text-align: center;
+    font-size: 36px;
+    color: #0099FF;
+    margin-top: -36px;
+}
+
+.CCC-userStatusChart-pageLink{
+    height:110px;
+    margin:0 auto;
+    width: 1000px;
+}
+
+#CCC-userStatusChart-pageLink-getMoreBox{
+    width:1000px;
+    background:#555555;
+    text-decoration:none;
+    color:white;
+    margin-bottom:10px;
+    transition:background-color 0.3s;
+    -moz-transition:background-color 0.3s;
+    -webkit-transition:background-color 0.3s;
+    -o-transition:background-color 0.3s;
+}
+
+#CCC-userStatusChart-pageLink-getMore{
+    font-size:34px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    margin-left:428px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-userStatusChart-pageLink-getMoreBox:hover{
+    background-color: #0099FF;
+}
+
+.CCC-userStatusChart-pageLink-Bar{
+    height:60px;
+    font-size:34px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+}
+
+.CCC-userStatusChart-pageLink-semiBar{
+    width:499px;
+    background:#00435E;
+    float:left;
+    text-decoration:none;
+    color:white;
+    transition:background-color 0.3s;
+    -moz-transition:background-color 0.3s;
+    -webkit-transition:background-color 0.3s;
+    -o-transition:background-color 0.3s;
+}
+
+.CCC-userStatusChart-pageLink-semiBar:hover{
+    color:white;
+    background-color: #0099FF;
+}
+
+#CCC-userStatusChart-pageLink-semiBar-first{
+    text-align:right;
+    margin-right:2px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-userStatusChart-pageLink-semiBar-Next{
+    text-align:left;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/*YoooooooooOOOOOOOOOOOOooooooooooooooOOOOOOOOOOOOoooooooo*/
+/*以上是个人页面所需的全部样式的四分之一，还剩活动页面，任务页面，发布页面*/
+.CCC-blank{
+    height:30px;
+    width:1200px;
+}
+
+.CCC-hotspot-bg{
+    width:1200px;
+    height:350px;
+    background:url(/skins/pic/pic.png);
+    background-position:center;
+    margin:0 auto -350px auto;
+}
+
+.CCC-hotspot{
+    width:1200px;
+    height:350px;
+    margin:0 auto 0 auto;
+}
+
+.CCC-hotspot-list{
+    position:relative;
+    height:350px;
+    width:199px;
+    margin-left:1000px;
+    background:rgba(0, 0, 0, 0.50);
+    border-right:1px solid #666666;
+    font-size:18px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+}
+
+.CCC-hotspot-list-title{
+    height:39px;
+    line-height:39px;
+    width:199px;
+    border-bottom:1.5px solid #666666;
+}
+
+.CCC-hotspot-list-item{
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    color:white;
+    height:40px;
+    width:199px;
+    line-height:40px;
+    transition:background 0.3s;
+    -moz-transition:background 0.3s;
+    -webkit-transition:background 0.3s;
+    -o-transition:background 0.3s;
+}
+
+.CCC-hotspot-list-item:hover{
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+    background:#0099FF;
+}
+
+.CCC-mainContainer{
+     width:1200px;
+     margin:0 auto 0 auto;
+     font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.CCC-mainContainer-header{
+    height:70px;
+    margin-bottom:7px;
+}
+
+.CCC-mainContainer-header-titleBox{
+    height:70px;
+    width:125px;
+    padding-top:40px;
+}
+
+.CCC-mainContainer-header-titleBox-icon{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0001.png);
+    background-size: 36px;
+    background-position-x: -1px;
+    float:left;
+}
+
+#CCC-mainContainer-header-titleBox-icon1{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0001.png);
+    background-size: 36px;
+    background-position-x: -1px;
+}
+
+.CCC-mainContainer-header-titleBox-title{
+    float:left;
+    font-weight:bold;
+    font-size:30px;
+    line-height:30px;
+    margin-left:20px;
+    color:#666666;
+}
+
+.CCC-mainContainer-header-titleBox-getchBox{
+    margin-left:950px;
+    width:250px;
+    height:30px;
+    font-size:16px;
+    color:white;
+    line-height:30px;
+}
+
+.CCC-mainContainer-header-titleBox-getchBox-refresh{
+    float:left;
+    width:140px;
+    height:30px;
+    border-radius:16.5px;
+    background:#0099FF;
+    display:block;
+    cursor:pointer;
+}
+
+.CCC-icon-refresh{
+    height:20.2222222px;
+    width:21px;
+    margin-top:5px;
+    margin-left:6px;
+    float:left;
+    background:url(/skins/pic/turn.png);
+    background-size:contain;
+}
+
+#CCC-mainContainer-header-titleBox-getchBox-activity{
+    float:left;
+    text-decoration:none;
+    cursor:pointer;
+    margin-left:9px;
+    color:white;
+}
+
+.CCC-mainContainer-header-titleBox-getchBox-getmore{
+    float:left;
+    width:90px;
+    height:30px;
+    margin-left:20px;
+    border-radius:16.5px;
+    background:#0099FF;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-titleBox-getchBox-more{
+    float:left;
+    text-decoration:none;
+    cursor:pointer;
+    margin-left:12px;
+    color:white;
+}
+
+.CCC-icon-rightArrow{
+    float:left;
+    background:url('/skins/pic/point point.png');
+    height:21px;
+    width:21px;
+    margin-top:4px;
+    margin-left:10px;
+}
+
+@keyframes refresh-rotate {
+    0% {transform-origin:50% 50%;transform: rotate(0deg);}
+    50% {transform-origin:50% 50%;transform: rotate(180deg);}
+    100% {transform-origin:50% 50%;transform: rotate(360deg);}
+}
+
+@keyframes arrow-slip{
+    0% {margin-left:10px;}
+    25% {margin-left:15px;}
+    50% {margin-left:10px;}
+    75% {margin-left:5px;}
+    100% {margin-left:10px;}
+}
+
+.CCC-mainContainer-bigGroup{
+    width:1207px;
+    height:724.2px;
+    margin:0 -3.5px 0 -3.5px;
+}
+
+.CCC-mainContainer-bigGroup-tile{
+    float:left;
+    width:234.4px;
+    height:234.4px;
+    margin:3.5px;
+    background-color:#0099FF;
+}
+
+#CCC-mainContainer-bigGroup-tileDefault{
+    background-color:#666666;
+}
+
+.CCC-mainContainer-bigGroup-tileback{
+    width:234.4px;
+    height:234.4px;
+    background-color:#999999;
+    margin-bottom:-234.4px;
+    background-position:center;
+    background-size:cover;
+}
+
+.CCC-mainContainer-bigGroup-tilefront{
+    width:234.4px;
+    height:234.4px;
+    background-color:rgba(0, 0, 0, 0.50);
+    filter:alpha(opacity = 0);
+    opacity:0;
+    transition:filter 0.3s,opacity 0.3s;
+    -moz-transition:filter 0.3s,opacity 0.3s;
+    -webkit-transition:filter 0.3s,opacity 0.3s;
+    -o-transition:filter 0.3s,opacity 0.3s;
+}
+
+.CCC-mainContainer-bigGroup-tilefront:hover{
+    filter:alpha(opacity = 100);
+    opacity:1;
+}
+
+#CCC-mainContainer-bigGroup-tilefront-info{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    padding:15px 0 0 15px;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    width:234.4px;
+    height:234.4px;
+}
+
+#CCC-mainContainer-bigGroup-tilefront-infoC{
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-bigGroup-tilefront-infoU{
+    font-size:25px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.CCC-mainContainer-bigGroup-tile-titleBoxL{
+    margin:12px 12px 12px 12px;
+    width:220.4px;
+    height:110px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:100;
+}
+
+.CCC-mainContainer-bigGroup-tile-titleBox-titleU{
+    width:125px;
+    font-size:25px;
+    line-height:40px;
+    color:white;
+    border-bottom:1px solid white;
+}
+
+#CCC-mainContainer-bigGroup-tile-titleBox-titleUR{
+    margin-left:85px;
+}
+
+.CCC-mainContainer-bigGroup-tile-titleBox-titleD{
+    font-size:20px;
+    line-height:38px;
+    color:white;
+    margin-right:12px;
+}
+
+.CCC-mainContainer-bigGroup-tile-titleBoxR{
+    margin:12px 12px 12px 12px;
+    width:220.4px;
+    height:110px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:100;
+    text-align:right;
+}
+
+#CCC-mainContainer-header-titleBox-icon2{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0004.png);
+    background-size: 36px;
+    background-position-x: -1px;
+}
+
+#CCC-mainContainer-activity{
+    width:1207.5px;
+    height:720px; 
+}
+
+.CCC-mainContainer-activityL{
+    float:left;
+    width:740px;
+    height:720px;
+    margin-top:-3px;
+    margin-left:-4.5px;
+}
+
+.CCC-mainContainer-activity-tile{
+    float:left;
+    height:346px;
+    width:236px;
+    margin:0px 4.5px 14px 4.5px;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    border:3px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-activity-tile:hover{
+    border:3px solid #0099FF;
+}
+
+.CCC-mainContainer-activity-tile-image{
+    width:230px;
+    height:230px;
+    background-color:#999999;
+    background-size:cover;
+}
+
+.CCC-mainContainer-activity-tile-info{
+    width:230px;
+    height:110px;
+    background-color:white;
+    padding:10px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:20px;
+    font-size:14px;
+}
+
+.CCC-mainContainer-activity-tile-infoU{
+    width:210px;
+    height:75px;
+}
+
+.CCC-mainContainer-activity-tile-info-title{
+    width:160px;
+    float:left;
+}
+
+#CCC-mainContainer-activity-tile-info-titlemain{
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+
+#CCC-mainContainer-activity-tile-info-titlesub{
+    margin-top:-8px;
+    line-height:18px;
+    font-weight:100;
+    text-decoration:none;
+    color:black;
+}
+
+#CCC-mainContainer-activity-tile-info-titlelocation{
+    float: left;
+    width: 48px;
+    height: 24px;
+    border-radius: 16.5px;
+    background: #0099FF;
+    text-decoration: none;
+    margin-left: 2px;
+    text-align: center;
+    color: white;
+    line-height:24px;
+}
+
+#CCC-mainContainer-activity-tile-infoDL{
+    float:left;
+    color:black;
+    font-size:12px;
+}
+
+#CCC-mainContainer-activity-tile-infoDR{
+    float:right;
+    color:#999999;
+    font-size:12px;
+}
+
+.CCC-mainContainer-activityR{
+    float:left;
+    width:460px;
+    height:720px;
+}
+
+.CCC-mainContainer-activityNews{
+    float:left;
+    text-decoration: none;
+    display:block;
+    width:450px;
+    height:105px;
+    border-radius:7px;
+    background:#0099FF;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.CCC-mainContainer-activityBigNews{
+    position:relative;
+    margin-left:56px;
+    margin-top:5px;
+}
+
+.CCC-mainContainer-activity-minitile{
+    float:left;
+    height:105px;
+    width:105px;
+    margin-top:6px;
+    margin-left:9px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-decoration: none;
+    display:block;
+    cursor:pointer;
+    border:3px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-activity-minitile:hover{
+    border:3px solid #0099FF;
+}
+
+.CCC-mainContainer-activity-bartile{
+    float:left;
+    height:150px;
+    width:450px;
+    margin-top:11px;
+    margin-left:10px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    border:3px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-activity-bartile:hover{
+    border:3px solid #0099FF;
+}
+
+.CCC-mainContainer-activity-bartile-sub{
+    font-size:48px;
+    color:white;
+    margin:66px 0 0 16px;
+}
+
+.CCC-mainContainer-questbg{
+    height:550px;
+    background-color:white;
+    margin-bottom:-550px;
+}
+
+#CCC-mainContainer-header-titleBox-icon3{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0005.png);
+    background-size: 36px;
+    background-position-x: -1px;
+}
+
+.CCC-mainContainer-quest{
+    width:1200px;
+    height:450px;
+}
+
+.CCC-mainContainer-questL{
+    float:left;
+    width:450px;
+    height:450px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.CCC-mainContainer-questR{
+    float:left;
+    margin-left:30px;
+    width:720px;
+    height:452.5px;
+}
+
+.CCC-mainContainer-quest-tile{
+    height:88px;
+    width:720px;
+    margin-bottom:2.5px;
+    background-color:#333333;
+    border-left:15px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-quest-tile:hover{
+    border-left:15px solid #0099FF;
+}
+
+#CCC-mainContainer-quest-tileLink1{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tileLink2{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tileLink3{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tileLink4{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tileLink5{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+.CCC-mainContainer-quest-tile-AvatarBox{
+    float:left;
+    width:100px;
+    height:88px;
+    padding-left:20px;
+    padding-top:9px;
+}
+
+.CCC-mainContainer-quest-tile-DefaultAvatar{
+    width:60px;
+    height:72.85714286px;
+    background-image:url(/skins/pic/head.png);
+    background-size:contain;
+    margin-bottom:-72.85714286px;
+}
+
+.CCC-mainContainer-quest-tile-Avatar{
+    width:60px;
+    height:72.85714286px;
+    background-image:url(/skins/pic/sampleAvatar1.gif);
+    background-size:cover;
+    background-repeat:no-repeat;
+    -ms-mask-image:url('/skins/pic/head big orin.png');
+    -webkit-mask-image:url('/skins/pic/head big orin.png');
+    -o-mask-image:url('/skins/pic/head big orin.png');
+    -moz-mask-image:url('/skins/pic/head big orin.png');
+    -ms-mask-size:60px;
+    -webkit-mask-size:60px;
+    -o-mask-size:60px;
+    -moz-mask-repeat:no-repeat;
+    -ms-mask-repeat:no-repeat;
+    -webkit-mask-repeat:no-repeat;
+    -o-mask-repeat:no-repeat;
+    -moz-mask-repeat:no-repeat;
+}
+
+.CCC-mainContainer-quest-tile-infoBox{
+    float:left;
+    width:460px;
+    height:88px;
+    color:white;
+    padding-top:14px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+#CCC-mainContainer-quest-tile-infoTitle{
+    font-size:18px;
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+    margin-bottom:5px;
+}
+
+#CCC-mainContainer-quest-tile-infoSubTitle{
+    font-size:18px;
+    font-weight:100;
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.CCC-mainContainer-quest-tile-missionStartBox{
+    float:left;
+    padding-top:29px;
+    padding-left:33px;
+    width:145px;
+    height:88px;
+    background-image:url('/skins/pic/per bannerR.png');
+    background-size:cover;
+}
+
+#CCC-mainContainer-quest-tile-missionStart1{
+    font-size:22px;
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tile-missionStart2{
+    font-size:22px;
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tile-missionStart3{
+    font-size:22px;
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tile-missionStart4{
+    font-size:22px;
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-quest-tile-missionStart5{
+    font-size:22px;
+    font-weight:bold;
+    color:#333333;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+@keyframes changeColorB{
+    0% {color:#333333;}
+    10% {color:#ffff00;}
+    20% {color:white;}
+    30% {color:#0099FF;}
+    40% {color:white;}
+    50% {color:#ff0000;}
+    60% {color:white;}
+    70% {color:#00ff92;}
+    80% {color:white;}
+    90% {color:#7500ff;}
+    100% {color:#333333;}
+}
+
+#CCC-mainContainer-header-titleBox-icon4{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0002.png);
+    background-size: 36px;
+    background-position-x: -1px;
+    float:left;
+}
+
+.CCC-mainContainer-CCCer{
+    width:1200px;
+    height:700px;
+}
+
+.CCC-mainContainer-CCCerL{
+    float:left;
+    width:450px;
+    height:700px;
+    background-image:url(/skins/pic/CCCerDefault.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.CCC-mainContainer-CCCerR{
+    float:left;
+    width:730px;
+    height:700px;
+    margin-left:20px;
+}
+
+.CCC-mainContainer-CCCerRU{
+    width:730px;
+    height:470px;
+}
+
+.CCC-mainContainer-CCCerRU-AvatarBoxT{
+    position:relative;
+    float:left;
+    width:135px;
+    height:154.6255507px;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.CCC-mainContainer-CCCerRU-AvatarBoxD{
+    position:relative;
+    float:left;
+    width:135px;
+    height:154.6255507px;
+    margin-top:-20px;
+    margin-left:20px;
+}
+
+.CCC-mainContainer-CCCerRU-DefaultAvatar{
+    width:135px;
+    height:154.6255507px;
+    background-image:url('/skins/pic/head big.png');
+    background-size:contain;
+    margin-bottom:-154.6255507px;
+}
+
+.CCC-mainContainer-CCCerRU-Avatar{
+    width:135px;
+    height:154.6255507px;
+    background-image:url(/skins/pic/sampleAvatar1.gif);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    -ms-mask-image:url('/skins/pic/head big orin.png');
+    -webkit-mask-image:url('/skins/pic/head big orin.png');
+    -o-mask-image:url('/skins/pic/head big orin.png');
+    -moz-mask-image:url('/skins/pic/head big orin.png');
+    -ms-mask-size:135px;
+    -webkit-mask-size:135px;
+    -o-mask-size:135px;
+    -moz-mask-repeat:no-repeat;
+    -ms-mask-repeat:no-repeat;
+    -webkit-mask-repeat:no-repeat;
+    -o-mask-repeat:no-repeat;
+    -moz-mask-repeat:no-repeat;
+}
+
+#CCC-mainContainer-CCCerRU-AvatarBox1{
+    margin-left:80px;
+}
+
+#CCC-mainContainer-CCCerRU-AvatarBox5{
+    margin-left:158px;
+}
+
+#CCC-mainContainer-CCCerRU-AvatarBox7{
+    margin-right:100px;
+}
+
+#CCC-mainContainer-CCCerRU-AvatarBox8{
+    margin-left:80px;
+}
+
+.CCC-mainContainer-CCCerRD{
+    width:730px;
+    height:230px;
+}
+
+.CCC-mainContainer-CCCerRD-tile{
+    float:left;
+    width:230px;
+    height:230px;
+    margin-left:10px;
+    border:2px solid rgba(0,0,0,0.0);
+    background-color:#666666;
+    background-position:center;
+    background-size:cover;
+    background-image:url(/skins/pic/sampleAvatar1.gif);
+    background-repeat:no-repeat;
+    padding:170px 0 0 22px;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-CCCerRD-tile:hover{
+    border:2px solid #0099FF;
+}
+
+#CCC-mainContainer-CCCerRD-tileLink{
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-mainContainer-CCCerRD-tile-title{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:30px;
+    color:#333333;
+    text-decoration:none;
+}
+
+#CCC-mainContainer-header-titleBox-icon5{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0003.png);
+    background-size: 36px;
+    background-position-x: -1px;
+    float:left;
+}
+
+.CCC-mainContainer-MIndustry{
+    width:1210px;
+    height:710px;
+}
+
+.CCC-mainContainer-MIndustry-tileU{
+    float:left;
+    width:290px;
+    height:440px;
+    border:2px solid #666666;
+    margin:0 0 10px 10px;
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-MIndustry-tileU:hover{
+    border:2px solid #0099FF;
+}
+
+.CCC-mainContainer-MIndustry-tileD{
+    float:left;
+    width:175px;
+    height:260px;
+    border:2px solid #666666;
+    margin:0 0 10px 10px;
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-MIndustry-tileD:hover{
+    border:2px solid #0099FF;
+}
+
+#CCC-mainContainer-MIndustry-tileDE{
+    width:450px;
+}
+
+#CCC-mainContainer-header-titleBox-icon7{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0007.png);
+    background-size: 34px 30px;
+    float:left;
+}
+
+.CCC-mainContainer-topic{
+    width:1207.5px;
+    height:720px; 
+}
+
+.CCC-mainContainer-topicL{
+    float:left;
+    width:740px;
+    height:720px;
+    margin-top:-3px;
+    margin-left:-4.5px;
+}
+
+.CCC-mainContainer-topic-tile{
+    float:left;
+    height:346px;
+    width:236px;
+    margin:0px 4.5px 14px 4.5px;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    border:3px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-topic-tile:hover{
+    border:3px solid #0099FF;
+}
+
+
+.CCC-mainContainer-topic-tile-image{
+    width:230px;
+    height:230px;
+    background-color:#999999;
+    background-size:cover;
+}
+
+.CCC-mainContainer-topic-tile-info{
+    width:230px;
+    height:110px;
+    background-color:white;
+    padding:10px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:20px;
+    font-size:14px;
+}
+
+.CCC-mainContainer-topic-tile-infoU{
+    width:210px;
+    height:75px;
+}
+
+.CCC-mainContainer-topic-tile-info-title{
+    width:160px;
+    float:left;
+}
+
+#CCC-mainContainer-topic-tile-info-titlemain{
+    font-weight:bold;
+    text-decoration:none;
+    color:black;
+}
+
+#CCC-mainContainer-topic-tile-info-titlesub{
+    margin-top:-8px;
+    line-height:18px;
+    font-weight:100;
+    text-decoration:none;
+    color:black;
+}
+
+#CCC-mainContainer-topic-tile-info-titlelocation{
+float: left;
+    width: 48px;
+    height: 24px;
+    border-radius: 16.5px;
+    background: #0099FF;
+    text-decoration: none;
+    margin-left: 2px;
+    text-align: center;
+    color: white;
+}
+
+#CCC-mainContainer-topic-tile-infoDL{
+    float:left;
+    color:black;
+    font-size:12px;
+}
+
+#CCC-mainContainer-topic-tile-infoDR{
+    float:right;
+    color:#999999;
+    font-size:12px;
+}
+
+.CCC-mainContainer-topicR{
+    float:left;
+    width:464.5px;
+    height:720px;
+}
+
+#CCC-mainContainer-topicNews{
+    float:left;
+    text-decoration: none;
+    display:block;
+    width:450px;
+    height:105px;
+    border-radius:7px;
+    background:#0099FF;
+    margin-left:14.5px;
+    cursor:pointer;
+}
+
+.CCC-mainContainer-topicBigNews{
+    position:relative;
+    margin-left:135px;
+    margin-top:30px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:40px;
+    font-size:40px;
+    color:white;
+    font-weight:bold;
+}
+
+.CCC-mainContainer-topicList{
+    float:left;
+    width:450px;
+    height:595px;
+    margin-left:14.5px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:#666666;
+    font-size:24px;
+}
+
+#CCC-mainContainer-topicList-subLink{
+    text-decoration:none;
+    color:#666666;
+    cursor:pointer;
+    transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+    -o-transition:color 0.3s;
+}
+
+#CCC-mainContainer-topicList-subLink:hover{
+    color:#80ccff;
+}
+
+.CCC-mainContainer-topicList-sub{
+    font-size:20px;
+}
+
+#CCC-mainContainer-topicList-Title{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    font-weight:bold;
+    line-height:30.5px;
+    font-size:24px;
+    padding-top:9px;
+    margin-bottom:0px;
+    border-bottom:1px solid #666666;
+}
+
+#CCC-mainContainer-topicList-DM{
+    margin-bottom:0px;
+    border-bottom:1px solid #666666;
+    line-height:36px;
+}
+
+.CCC-mainContainer-topicList-subN{
+    color:#0099FF;
+    font-weight:bold;
+    margin-right:20px;
+}
+
+#CCC-mainContainer-header-titleBox-icon8{
+    height: 30px;
+    width: 34px;
+    background: url(/skins/pic/icon0006.png);
+    background-size: 36px;
+    background-position-x: -1px;
+    float:left;
+}
+
+.CCC-mainContainer-specialRecommdation{
+    width:1210px;
+    height:200px;
+}
+
+.CCC-mainContainer-specialRecommdation-tile{
+    float:left;
+    margin-left:10px;
+    width:160px;
+    height:200px;
+}
+
+.CCC-mainContainer-specialRecommdation-tile-img{
+    float:left;
+    height:160px;
+    width:160px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-decoration: none;
+    display:block;
+    cursor:pointer;
+    border:2px solid rgba(0,0,0,0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+.CCC-mainContainer-specialRecommdation-tile-img:hover{
+    border:2px solid #0099FF;
+}
+
+.CCC-mainContainer-specialRecommdation-tile-title{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    font-weight:bold;
+    line-height:30.5px;
+    font-size:24px;
+    margin-left:10px;
+}
+
+/*YoooooooooOOOOOOOOOOOOooooooooooooooOOOOOOOOOOOOoooooooo*/
+/*以上是首页所需的大部分样式，后期还会新增的*/
+
+#CCC-mainContainer-header-titleBox-icon9{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20001.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+.CCC-mainContainer-bigGroupSub{
+    width:1225px;
+    height:645px;
+    margin:0 -12.5px 0 -12.5px;
+}
+
+#CCC-mainContainer-bigGroupSub-tile{
+    float:left;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    width:235px;
+    height:310px;
+    margin:0 5px 20px 5px;
+    border:2.5px solid rgba(0,0,0,0.0);
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+}
+
+#CCC-mainContainer-bigGroupSub-tile:hover{
+    border:2.5px solid #0099FF;
+}
+
+.CCC-mainContainer-activity-tile-image{
+    width:230px;
+    height:230px;
+    background-color:#666666;
+    background-size:cover;
+}
+
+.CCC-mainContainer-activity-tile-title{
+    width:230px;
+    height:75px;
+    background-color:white;
+    padding:5px;
+    padding-left:10px;
+}
+
+.CCC-mainContainer-activity-tile-titleU{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:20px;
+    margin-top: 3px;
+}
+
+.CCC-mainContainer-activity-tile-titleD{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    font-weight:100;
+    font-size:13.5px;
+    text-align:right;
+}
+
+#CCC-mainContainer-activity-tile-titleD-LN{
+    width:50px;
+    display:-moz-inline-box;
+    display:inline-block; 
+    margin-right:16px;
+}
+
+#CCC-mainContainer-activity-tile-titleD-RN{
+    width:50px;
+    display:-moz-inline-box;
+    display:inline-block;
+    margin-right: 10px
+}
+
+#CCC-mainContainer-header-titleBox-icon10{
+    height: 26px;
+    width: 36px;
+    background: url('/skins/pic/group icon 20004.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon12{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20002.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon13{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20003.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon14{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20005.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon15{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20006.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon16{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20008.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+#CCC-mainContainer-header-titleBox-icon17{
+    height: 26px;
+    width: 32px;
+    background: url('/skins/pic/group icon 20007.png');
+    background-size: 36px;
+    background-position-x: -1px;
+    float: left;
+}
+
+/*YoooooooooOOOOOOOOOOOOooooooooooooooOOOOOOOOOOOOoooooooo*/
+/*以上是大组所需的全部样式*/
+
+.CCC-production-title{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    padding:45px 0 0 30px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.CCC-production{
+    width:1200px;
+    margin:0 auto;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.CCC-production-content{
+    width:830px;
+    height:auto;
+    float:left;
+}
+
+.CCC-production-sideList{
+    width:360px;
+    height:auto;
+    float:right;
+}
+
+.CCC-production-content-info{
+    width:830px;
+    height:185px;
+    background-color:white;
+    padding:17.5px 20px 10px 25px;
+    margin-bottom:18px;
+}
+
+.CCC-production-content-info-thumbnail{
+    float:left;
+    width:150px;
+    height:150px;
+    border:1.5px solid #cccccc;
+    background-color:#666666;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.CCC-production-content-info-box{
+    float:right;
+    width:610px;
+    height:150px;
+}
+
+.CCC-prodution-content-info-box-tagbox{
+    float:left;
+    width:550px;
+    height:80px;
+}
+
+#CCC-production-content-info-box-tagbox-tagB{
+    float:left;
+    height: 28px;
+    width:auto;
+    border-radius: 14.5px;
+    background: #0099FF;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:28px;
+    padding:0 15px 0 15px;
+    margin-left:5px;
+    background-color:#0099FF;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    display: block;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#CCC-production-content-info-box-tagbox-tagG1{
+    float:left;
+    height: 28px;
+    width:auto;
+    border-radius: 14.5px;
+    background: #0099FF;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:28px;
+    padding:0 15px 0 15px;
+    margin-left:5px;
+    margin-top:8px;
+    background-color:#cccccc;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    display: block;
+    cursor: pointer;
+    text-decoration:none;
+    clear:left;
+}
+
+#CCC-production-content-info-box-tagbox-tagG{
+    float:left;
+    height: 28px;
+    width:auto;
+    border-radius: 14.5px;
+    background: #0099FF;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:28px;
+    padding:0 15px 0 15px;
+    margin-left:5px;
+    margin-top:8px;
+    background-color:#cccccc;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    display: block;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#CCC-production-content-info-box-911{
+    float:right;
+    color:#cccccc;
+    font-size:18px;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.CCC-production-content-info-box-subtitle{
+    width:610px;
+    height:77.5px;
+}
+
+#CCC-production-content-info-box-subtitle-qm1{
+    float:left;
+    height:77.5px;
+    width:65px;
+    background:url('/skins/pic/qm.png') no-repeat;
+    background-size:50px;
+    clear:left;
+}
+
+#CCC-production-content-info-box-subtitle-text{
+    float:left;
+    height:77.5px;
+    width:470px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    font-size:14px;
+    line-height:18px;
+    padding-top: 10px;
+}
+
+#CCC-production-content-info-box-subtitle-qm2{
+    float:left;
+    height:77.5px;
+    width:65px;
+    background:url(/skins/pic/qm.png) no-repeat;
+    background-size:50px;
+    transform:rotate(180deg);
+}
+
+.CCC-production-content-works{
+    width:830px;
+    overflow:hidden;
+    background-color:white;
+    padding:17.5px 25px 0 25px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color: #333333;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.CCC-production-sideList-userInfo{
+    width:360px;
+    height:185px;
+    position:relative;
+    background:url('/skins/pic/per banner.png') no-repeat;
+    background-color:#333333;
+    background-size:contain;
+    background-position:-105px 0px;
+    margin-bottom:18px;
+}
+
+#CCC-production-sideList-userInfo-avatarBox{
+    background:url('/skins/pic/head big.png') no-repeat;
+    width:100px;
+    height:114.5374449px;
+    background-size:contain;
+    position:absolute;
+    top:-50px;
+    left:55px;
+    display:block;
+    cursor:pointer;
+}
+
+#CCC-production-sideList-userInfo-username{
+    position:absolute;
+    top:-35px;
+    left:165px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    color:rgba(0, 0, 0, 0.93);
+}
+
+.CCC-production-sideList-userInfo-dataBox{
+    float:left;
+    width:225px;
+    height:185px;
+    padding:70px 10px 15px 3px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-link1{
+    float: left;
+    margin-left: 5px;
+    width: 60px;
+    height: 45px;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    text-align:center;
+}
+
+#CCC-production-sideList-userInfo-dataBox-link2{
+    float: left;
+    margin-left: 5px;
+    width: 60px;
+    height: 45px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    text-align:center;
+}
+
+#CCC-production-sideList-userInfo-dataBox-linkU{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height:20px;
+    margin-bottom:3px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-linkD{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color: #CCCCCC;
+    font-weight: 100;
+    font-size: 14px;
+    line-height:18px;
+}
+
+.CCC-production-sideList-userInfo-dataBox-jobIconBar{
+    float:left;
+    width:200px;
+    height:55px;
+    clear:both;
+    padding:10px 0 0 10px
+}
+
+.CCC-production-sideList-userInfo-dataBox-jobIconBar-icon{
+    background-image:url('/skins/pic/JOB ICON TYPE HA.png');
+    width:25px;
+    height:16px;
+    background-size:354.2857143px;
+    float:left;
+    margin-top:8px;
+    background-position:0px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon1{
+    background-position:0px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon2{
+    background-position:-28px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon3{
+    background-position:-56px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon4{
+    background-position:-84px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon5{
+    background-position:-112px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon6{
+    background-position:-140px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon7{
+    background-position:-168px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon8{
+    background-position:-196px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon9{
+    background-position:-224px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon10{
+    background-position:-252px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon11{
+    background-position:-280px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon12{
+    background-position:-308px 0px;
+}
+
+#CCC-production-sideList-userInfo-dataBox-jobIconBar-icon13{
+    background-position:-336px 0px;
+    width:18px;
+}
+
+.CCC-production-sideList-userInfo-linkBox{
+    float:left;
+    width:135px;
+    height:185px;
+    padding:15px 15px 25px 5px;
+}
+
+#CCC-production-sideList-userInfo-linkBox-addConcern{
+    float:left;
+    height: 32px;
+    width:auto;
+    border-radius: 18.5px;
+    background: #0099FF;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:32px;
+    padding:0 15px 0 15px;
+    margin-left:35px;
+    background-color:#0099FF;
+    color:white;
+    font-size:17px;
+    display: block;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#CCC-production-sideList-userInfo-linkBox-message{
+    float:left;
+    height: 32px;
+    width:auto;
+    border-radius: 18.5px;
+    background: #CCCCCC;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height:32px;
+    padding:0 15px 0 15px;
+    margin-top:8px;
+    margin-left:35px;
+    background-color:#666666;
+    color:white;
+    font-size:17px;
+    display: block;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#CCC-production-sideList-userInfo-linkBox-credit{
+    height: 32px;
+    width:auto;
+    margin:120px 0 0 0;
+}
+
+#CCC-production-sideList-userInfo-linkBox-credit-tag1{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    font-weight:100;
+    font-size:18px;
+}
+
+#CCC-production-sideList-userInfo-linkBox-credit-tag2{
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:#0099FF;
+    font-weight:bold;
+    margin-left:5px;
+    font-size:18px;
+}
+
+.CCC-production-sideList-linklist{
+    width:360px;
+    overflow:hidden;
+}
+
+#CCC-production-sideList-linklist-publishBtn{
+    text-decoration: none;
+    display: block;
+    width: 360px;
+    height: 105px;
+    border-radius: 7px;
+    background: #0099FF;
+    cursor: pointer;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+    line-height:105px;
+}
+
+#CCC-production-sideList-linklist-advLink{
+    text-decoration: none;
+    display: block;
+    width: 360px;
+    height: 125px;
+    cursor: pointer;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:rgba(0, 0, 0, 0.73);
+    font-weight:bold;
+    font-size:42px;
+    margin-top:8px;
+    padding:55px 0 16px 18px;
+    border:2px solid rgba(0,0,0,0);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    transition:border 0.3s;
+    -moz-transition:border 0.3s;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+
+}
+
+#CCC-production-sideList-linklist-advLink:hover{
+    border:2px solid #0099FF;
+}
+
+.CCC-production-content-works-partnerListTitle{
+    font-size:28px;
+    font-weight: bold;
+    color:#0099FF;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.CCC-production-content-works img{
+    max-width:780px;
+    margin-bottom:8px;
+}
+
+#CCC-Copyright{
+    color:#999999;
+    text-align:center;
+    bottom:0;
+    font-size:14px;
+    margin-top:18px;
+}
+
+.CCC-production-content-works-bottomLink{
+    width:805px;
+    height:60px;
+}
+
+#CCC-coinFeeder{
+    float:right;
+    height:70px;
+    width:78px;
+    /*width:400px;*/
+    overflow:hidden;
+    padding-right:18px;
+    /*padding-right:60px;*/
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    background-color:#333333;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-coinFeeder:hover{
+    padding-right:60px;
+    width:400px;
+}
+
+#CCC-coinFeeder img{
+    float:right;
+    margin-top:14px;
+}
+
+#CCC-coinFeeder-FeedCoin{
+    float:right;
+    text-decoration:none;
+    cursor:pointer;
+    display:block;
+    height:50px;
+    width:62px;
+    margin:16px 1px 0 40px;
+    color:white;
+}
+
+#CCC-coinFeeder-FeedCoin-title{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:3px;
+    color:white;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-coinFeeder-FeedCoin-title:hover{
+    color:#0099FF;
+}
+
+#CCC-coinFeeder-FeedCoin-remainCoin{
+    font-family: 'Century Gothic',Arial,Helvetica,sans-serif;
+    font-size:18px;
+    font-weight:100;
+}
+
+#CCC-3LinkBar{
+    height:50px;
+    width:180px;
+}
+
+.CCC-3LinkBar-Btn{
+    float:left;
+    text-decoration:none;
+    cursor:default;
+    display:block;
+    height:48px;
+    width:60px;
+    padding:0 11px 0 11px;
+    border-right:1px solid white;
+}
+
+#CCC-LinkBtn1{
+    text-decoration:none;
+}
+
+#CCC-LinkBtn2{
+    text-decoration:none;
+}
+
+#CCC-LinkBtn3{
+    text-decoration:none;
+}
+
+#CCC-LinkBtn-data{
+    color:white;
+    cursor:default;
+    font-size:16px;
+}
+
+.CCC-LinkBtn-icon{
+    background-image:url('/skins/pic/project icon UA.png');
+    width:38px;
+    height:30px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+.CCC-LinkBtn-icon:hover{
+    background-image:url('/skins/pic/project icon UB.png');
+}
+
+#CCC-LinkBtn-icon1{
+    background-position:-1px 0px;
+}
+
+#CCC-LinkBtn-icon2{
+    background-position:-76px 0px;
+}
+
+#CCC-LinkBtn-icon3{
+    background-position:-157px 0px;
+}
+
+.CCC-production-content-neightbourLink{
+    margin-left:-25px;
+    width:830px;
+    height:80px;
+    background-color:#f3f3f3;
+}
+
+#CCC-production-content-neightbourLinkL{
+    float:left;
+    margin-top:15px;
+    height:50px;
+    width:180px;
+    display:block;
+    margin-left:235px;
+    color:#666666;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-neightbourLinkL:hover{
+    color:#0099FF;
+}
+
+#CCC-production-content-neightbourLinkR{
+    float:left;
+    margin-top:15px;
+    height:50px;
+    width:180px;
+    display:block;
+    color:#666666;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-neightbourLinkR:hover{
+    color:#0099FF;
+}
+
+.CCC-production-content-neightbourLink-Pic{
+    float:left;
+    height:50px;
+    width:50px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.CCC-production-content-neightbourLink-Title{
+    float:left;
+    display:block;
+    height:50px;
+    width:130px;
+    line-height:50px;
+    padding-left:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.CCC-production-content-advLink{
+    width:830px;
+    height:120px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.CCC-production-content-advLink-LinkBtn{
+    float:left;
+    display:block;
+    width:410px;
+    height:120px;
+    border:2px solid rgba(0,0,0,0.0);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+.CCC-production-content-advLink-LinkBtn:hover{
+    border:2px solid #0099FF;
+}
+
+.CCC-production-content-reply{
+    width:830px;
+    overflow:hidden;
+    background-color: white;
+    padding: 17.5px 25px 0 25px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.CCC-production-content-reply-editBox{
+    width:780px;
+    height:180px;
+    margin-bottom:20px;
+}
+
+.CCC-production-content-reply-showBox{
+    width:780px;
+    overflow:hidden;
+    padding-bottom:12px;
+    border-bottom:1.5px solid #CCCCCC;
+    margin-bottom:15px;
+}
+
+.CCC-production-content-reply-avatar{
+    float:left;
+    width:82px;
+    height:102px;
+    background-position:center;
+}
+
+.CCC-production-content-reply-textBox{
+    float:left;
+    width:674px;
+    overflow:hidden;
+    margin-left:24px;
+    font-size:16px;
+}
+
+.CCC-production-content-reply-textBox-nickname{
+    font-weight:bold;
+}
+
+.CCC-production-content-reply-textBox-bottomLine{
+    width:674px;
+    height:25px;
+}
+
+.CCC-production-content-reply-textBox-bottomLine-date{
+    float:left;
+    color:#cccccc;
+    margin-bottom:0;
+}
+
+#CCC-production-content-reply-textBox-bottomLine-Link{
+    float:right;
+    text-decoration:none;
+    cursor:pointer;
+    color:#cccccc;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-reply-textBox-bottomLine-Link:hover{
+    color:#0099FF;
+}
+
+.CCC-production-content-reply-bottomLink{
+    width:780px;
+    height:100px;
+}
+
+#CCC-production-content-reply-bottomLink-getmore{
+    float:left;
+    width:780px;
+    height:45px;
+    display:block;
+    background-color:#666666;
+    text-align:center;
+    font-size:26px;
+    color:white;
+    line-height:45px;
+    margin-bottom:10px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-reply-bottomLink-getmore:hover{
+    background-color:#0099FF;
+}
+
+#CCC-production-content-reply-bottomLink-FirstPage{
+    float:left;
+    padding-right:80px;
+    width:389px;
+    height:45px;
+    display:block;
+    background-color:#00141C;
+    text-align:right;
+    font-size:26px;
+    color:white;
+    line-height:45px;
+    margin-bottom:10px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-reply-bottomLink-FirstPage:hover{
+    background-color:#0099FF;
+}
+
+#CCC-production-content-reply-bottomLink-NextPage{
+    float:left;
+    padding-left:80px;
+    width:389px;
+    height:45px;
+    display:block;
+    background-color:#00141C;
+    text-align:left;
+    font-size:26px;
+    color:white;
+    line-height:45px;
+    margin-bottom:10px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-production-content-reply-bottomLink-NextPage:hover{
+    background-color:#0099FF;
+}
+
+/*YoooOOOOOOooooooooooOOOOOOOOOOooooooooOOOOOOoooooooo*/
+/*上面是作品详情页所需大部分样式，评论回复框的样式还没加*/
+
+.CCC-activity-title{
+    width:1200px;
+    height:90px;
+    margin:0 auto;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:black;
+    padding:45px 0 0 210px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.CCC-production-content-info-poster{
+    float: left;
+    width: 150px;
+    height: 225px;
+    margin-top: -75px;
+    border: 1.5px solid #cccccc;
+    background-color: #666666;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CCC-production-content-info-lineBox{
+    float:left;
+    width:480px;
+    height:80px;
+}
+
+#CCC-pproduction-content-info-JoinActivityOrBuyTickets{
+    float:left;
+    width:130px;
+    height:34px;
+    background-color:#0099FF;
+    border:3px solid #0099FF;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+    text-align:center;
+    line-height:31px;
+    font-size:14px;
+    color:white;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:200;
+    border-radius:5px;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-pproduction-content-info-JoinActivityOrBuyTickets:hover{
+    background-color:white;
+    color:#0099FF;
+}
+
+.CCC-production-content-info-lineBox-icon{
+    float: left;
+    clear: left;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    background-position: 0px 0px;
+    margin-right: 18px;
+    margin-bottom: 12px;
+    background-image: url("/skins/pic/activity title icon.png");
+    background-repeat: no-repeat;
+}
+
+#CCC-production-content-info-lineBox-icon1{
+    background-position: 0px 0px;
+    margin-top: 0px;
+}
+
+#CCC-production-content-info-lineBox-icon2{
+    background-position:0px -22px;
+}
+
+#CCC-production-content-info-lineBox-icon3{
+    background-position:0px -45px;
+}
+
+.CCC-production-content-info-lineBox-textLine{
+    line-height:27px;
+    color:#666666;
+}
+
+.CCC-activity-joinerBoard{
+    float:left;
+    clear:both;
+    width:1200px;
+    overflow:hidden;
+}
+
+/*YoooOOOOOOooooooooooOOOOOOOOOOooooooooOOOOOOoooooooo*/
+/*上面是活动详情页所需大部分样式，参加人员头像的样式还没加*/
+
+.CCC-topic-Box{
+    width:1200px;
+    overflow:hidden;
+    margin:0 auto;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:#555555;
+}
+
+.CCC-topic-Box-titleBox{
+    height:140px;
+    width:1200px;
+    text-align:center;
+}
+
+.CCC-topic-Box-titleBox-maintitle{
+    line-height:42px;
+    margin-top:38px;
+    border-bottom:1px solid #666666;
+    display:inline-block;
+    font-size:36px;
+    font-weight:bold;
+    color:#666666;
+    margin-bottom:2px;
+}
+
+.CCC-topic-Box-titleBox-subtitle{
+    line-height:20px;
+    font-size:18px;
+    color:#666666
+}
+
+.CCC-topic-Box-container{
+    width:1200px;
+    background-color:white;
+    overflow:hidden;
+    padding:80px;
+    margin-bottom:30px;
+}
+
+.CCC-topic-Box-container p{
+    margin-bottom:50px;
+}
+
+.CCC-topic-Box-container img{
+    max-width:1040px;
+}
+
+.CCC-topic-Box-container-title{
+    font-size:24px;
+    font-weight:bold;
+    margin:-10px 0 30px -20px;
+}
+
+.CCC-topic-Box-container-replyZindex{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.CCC-topic-Box-replyBox-container{
+    width:1200px;
+    background-color:white;
+    overflow:hidden;
+    padding:80px;
+    margin-bottom:30px;
+}
+
+/*YoooOOOOOOooooooooooOOOOOOOOOOooooooooOOOOOOoooooooo*/
+/*上面是话题和平模式所需大部分样式，头像的样式还没加*/
+
+.CCC-topic-Box-replyTitleBox{
+    line-height:20px;
+    font-size:18px;
+    color:#666666;
+    margin:0 auto;
+    width:1200px;
+    height:230px;
+    background:url('/skins/pic/talk 00.png') no-repeat;
+    text-align:center;
+    padding-top:110px;
+}
+
+.CCC-topic-Box-replyBox-container-barBox{
+    height:18px;
+    width:1140px;
+    margin-bottom:30px;
+}
+
+.CCC-topic-Box-replyBox-container-barBox-bar{
+    height:18px;
+    width:570px;
+    float:left;
+}
+
+#CCC-topic-Box-replyBox-container-barBox-bar-BarL{
+    border-bottom-left-radius:9px;
+    border-top-left-radius:9px;
+    background-color:#66CCCC;
+    width:300px;
+}
+
+#CCC-topic-Box-replyBox-container-barBox-bar-BarR{
+    border-bottom-right-radius:9px;
+    border-top-right-radius:9px;
+    background-color:#FF6633;
+    width:840px;
+}
+
+.CCC-topic-Box-replyBox-container-textArea{
+    width:1140px;
+    overflow:hidden;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box{
+    float:left;
+    width:570px;
+    overflow:hidden;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-titleBox{
+    width:569.5px;
+    height:120px;
+    margin-bottom:40px;
+}
+
+#CCC-topic-Box-replyBox-container-textArea-Box-titleBox-title{
+    width:240px;
+    height:120px;
+    background-color:#66CCCC;
+    border-radius:20px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:56px;
+    color:white;
+    line-height:110px;
+    text-align:center;
+    float:left;
+    display:block;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-topic-Box-replyBox-container-textArea-Box-titleBox-dataBox{
+    width:329.5px;
+    height:120px;
+    padding:12px;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color:#999999;
+    float:left;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-titleBox-dataBox-vote{
+    font-size:42px;
+    font-weight:bold;
+    line-height:46px;
+    margin-bottom:0px;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-titleBox-dataBox-floor{
+    font-size:24px;
+    line-height:24px;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-Block{
+    width:570px;
+    padding:0px 85px 0 85px;
+    overflow:hidden;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-Block p{
+    margin-bottom:0px;
+    font-size:18px;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-Block a{
+    float:right;
+    margin-bottom:0px;
+    font-size:18px;
+    cursor:pointer;
+    text-decoration:none;
+    color:#999999;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-Block a:hover{
+    color:#0099FF;
+}
+
+.CCC-topic-Box-replyBox-container-textArea-Box-Block-floor{
+    margin-bottom:36px;
+}
+
+#CCC-topic-Box-replyBox-container-textArea-replyAnchor{
+    display: block;
+    background-color: #333333;
+    height: 62px;
+    width: 62px;
+    transform:rotate(45deg);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    margin-left:538px;
+}
+
+#CCC-topic-Box-replyBox-container-textArea-replyAnchor p{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    display: block;
+    width: 78px;
+    height: 30px;
+    margin-bottom: 0;
+    margin-left: -6px;
+    margin-top:17px;
+}
+
+/*YoooOOOOOOooooooooooOOOOOOOOOOooooooooOOOOOOoooooooo*/
+/*上面是话题战争模式所需大部分样式，编辑框还没加，留了盒子，添加的时候如有疑问请联系前端攻城狮 #手握对城宝具的迷之男(- w -)*/
+
+.CCC-messageBox{
+    width:1200px;
+    overflow:hidden;
+    margin:20px auto;
+    font-family:"微软雅黑",Arial,Helvetica,sans-serif;
+    font-size:18px;
+    color:#666666;
+}
+
+.CCC-messageBoxL{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-right:15px;
+    background-color:white;
+    font-size:15px;
+}
+
+#CCC-messageBoxL-title{
+   height:43px;
+   width:180px;
+   margin:2px 10px 5px 10px;
+   border-bottom:1px solid #777777;
+   font-weight:bold;
+   line-height:46px;
+   color:#333333;
+}
+
+#CCC-messageBoxL-nav{
+    line-height:28px;
+    padding-left:15px;
+    text-decoration:none;
+    cursor:pointer;
+    color:#666666;
+    display:block;
+    width:200px;
+    height:28px;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-messageBoxL-nav:hover{
+    background-color:#0099FF;
+    font-weight:bold;
+    color:white;
+}
+
+#CCC-messageBoxL-navChecked{
+    line-height:28px;
+    padding-left:15px;
+    text-decoration:none;
+    cursor:pointer;
+    background-color:#0099FF;
+    font-weight:bold;
+    color:white;
+    display:block;
+    width:200px;
+    height:28px;
+}
+
+.CCC-messageBoxM{
+    width:770px;
+    overflow:hidden;
+    float:left;
+    margin-right:15px;
+    background-color:white;
+}
+
+.CCC-messageBoxM-title{
+    height:50px;
+    width:770px;
+    padding-left:20px;
+    line-height:50px;
+    color:white;
+    font-weight:bold;
+    background-color:#0099FF;
+    font-size:15px;
+}
+
+.CCC-messageBoxM-ATGZBox{
+    height:385px;
+    width:730px;
+    margin:0 20px 10px 20px;
+    padding:8px 0 18px 0;
+    border-bottom:1px solid #999999;
+}
+
+.CCC-messageBoxM-avaterBox{
+    float:left;
+    width:84px;
+    height:102px;
+    margin:0 26px 13px 0;
+    display:block;
+    cursor:pointer;
+    background-image:url(/skins/pic/head.png);
+}
+
+a.CCC-messageBoxM-textBox{
+    float:left;
+    width:620px;
+    padding-top:2px;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    color:inherit;
+}
+
+a.CCC-messageBoxM-textBox:hover{
+    text-decoration:none;
+}
+
+#CCC-messageBoxM-ATGZBox-textBox{
+    height:115px;
+}
+
+#CCC-messageBoxM-textBox-nickname{
+    font-weight:bold;
+    margin-bottom:1px;
+    color:#666666;
+}
+
+.CCC-messageBoxM-textBox-date{
+    color:#999999;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox{
+    float:left;
+    margin:0 0 20px 0;
+    height:230px;
+    width:730px;
+    color:inherit;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    clear:both;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox:hover{
+    color:inherit;
+    text-decoration:none;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-thumbnail{
+    float:left;
+    height:230px;
+    width:230px;
+    background-color:#666666;
+    background-size:cover;
+    background-position:center;
+    margin-right:25px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox{
+    float:left;
+    height:230px;
+    width:475px;
+    padding:30px 20px 0 10px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-tag{
+    height: 28px;
+    width: auto;
+    border-radius: 14.5px;
+    background: #0099FF;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    line-height: 28px;
+    padding: 0 15px 0 15px;
+    margin-left: 5px;
+    background-color: #0099FF;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display:inline-block;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-textBox{
+    float:right;
+    width:360px;
+    height:125px;
+    margin-bottom:25px;
+    overflow:hidden;
+    padding-right:10px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-textBox p{
+    margin-bottom:3px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-textBox-title{
+    font-weight: bold;
+    color: #333333;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-dataBox{
+    float:right;
+    width:445px;
+    height:24px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-dataBox img{
+    display:inline-block;
+    height:15.75px;
+    width:21px;
+}
+
+.CCC-messageBoxM-ATGZBox-workInfoBox-infoBox-dataBox span{
+    display:inline-block;
+    height:15.75px;
+    width:53px;
+    line-height:15.75px;
+    color:#333333;
+    font-size:15px;
+    margin-right:5px;
+}
+
+.CCC-messageBoxR{
+    width:200px;
+    float:left;
+    overflow:hidden;
+}
+
+#CCC-messageBoxR-tips{
+    width:200px;
+    height:350px;
+    display:block;
+    cursor:pointer;
+    background-color:white;
+    text-decoration:none;
+    color:#333333;
+    margin-bottom:15px;
+    padding-top:22px;
+    border-bottom:20px solid #0099FF;
+    font-family:'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+#CCC-messageBoxR-tips-title{
+    font-size:50px;
+    line-height:50px;
+    font-weight:800;
+    text-align:center;
+    margin-bottom:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#CCC-messageBoxR-tips-subtitle{
+    line-height:18px;
+    text-align:center;
+}
+
+.CCC-messageBoxR-advL{
+    display: block;
+    width: 200px;
+    height: 350px;
+    margin-bottom:15px;
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    -webkit-transition: border 0.3s;
+    -o-transition: border 0.3s;
+}
+
+.CCC-messageBoxR-advL:hover{
+    border:2px solid #0099FF;
+}
+
+.CCC-messageBoxR-advS{
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin-bottom:15px;
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    -webkit-transition: border 0.3s;
+    -o-transition: border 0.3s;
+}
+
+.CCC-messageBoxR-advS:hover{
+    border:2px solid #0099FF;
+}
+
+/*
+    yooooooooooooooooooo
+    以上是消息盒子所需的全部样式，暂时还没写空盒子页面的说~还请设计师尽快补完~
+*/
+
+.CCC-messageBoxM-TCBox{
+    width:730px;
+    margin:0 20px 10px 20px;
+    padding:8px 0 18px 0;
+    border-bottom:1px solid #999999;
+    overflow:hidden;
+}
+
+div.CCC-messageBoxM-textBox{
+    float:left;
+    width:620px;
+    padding-top:2px;
+}
+
+#CCC-messageBoxM-TCBox-textBox{
+    overflow:hidden;
+}
+
+#CCC-messageBoxM-textBox-text-TCAT{
+    display:inline;
+    color:rgb(107, 177, 225);
+    cursor:pointer;
+}
+
+.CCC-messageBoxM-textBox-text-TCreply{
+    display:inline-block;
+    margin-left:48px;
+    margin-bottom:10px;
+    cursor:pointer;
+    text-decoration:none;
+    color:inherit;
+}
+
+.CCC-messageBoxM-textBox-text-TCreply:hover{
+    text-decoration:none;
+}
+
+.CCC-messageBoxM-textBox-text-TCreply-priorText{
+    color:#999999;
+}
+
+/*
+    yooooooooooooooooooooooooooooooooo
+    以上是消息盒子吐槽页面需要的大部分样式，空盒子状态同样没有。。。设计师请尽快补完这种小细节~
+*/
+
+.CCC-messageBoxM-FriendBox{
+    width:730px;
+    margin:0 20px 10px 20px;
+    padding:8px 0 18px 0;
+    border-bottom:1px solid #999999;
+    overflow:hidden;
+}
+
+.CCC-messageBoxM-jobIconBar{
+    width:465px;
+    height:21px;
+}
+
+.CCC-messageBoxM-jobIconBar-IconG{
+    float:left;
+    width:21px;
+    height:16px;
+    margin-right:4px;
+    background-image:url('/skins/pic/JOB ICON TYPE HA.png');
+    background-size:355px 16px;
+}
+
+.CCC-messageBoxM-jobIconBar-IconB{
+    float:left;
+    width:21px;
+    height:16px;
+    margin-right:4px;
+    background-image:url('/skins/pic/JOB ICON TYPE HB.png');
+    background-size:355px 16px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon1{
+    background-position:0px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon2{
+    background-position:-28px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon3{
+    background-position:-57px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon4{
+    background-position:-86px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon5{
+    background-position:-114px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon6{
+    background-position:-140px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon7{
+    background-position:-166px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon8{
+    background-position:-197px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon9{
+    background-position:-224px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon10{
+    background-position:-251px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon11{
+    background-position:-280px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon12{
+    background-position:-305px 0px;
+}
+
+#CCC-messageBoxM-jobIconBar-Icon13{
+    background-position:-334px 0px;
+}
+
+#CCC-messageBoxM-highlight{
+    color:rgb(0, 153, 255);
+}
+
+#CCC-messageBoxM-foreText{
+    color:#999999;
+}
+
+.CCC-messageBoxM-listText{
+    margin:0;
+}
+
+/*
+    yoooooooooooooooooooo
+    以上是消息盒子好友页面所需的大部分样式
+*/
+
+.CCC-DListPage-bigIconTitle {
+    height:450px;
+    width:1200px;
+    margin:50px auto;
+    padding-top:400px;
+}
+
+#CCC-DListPage-bigIconTitle1{
+    background:url('/skins/pic/group icon great ver0001.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle2{
+    background:url('/skins/pic/group icon great ver0008.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle3{
+    background:url('/skins/pic/group icon great ver0002.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle4{
+    background:url('/skins/pic/group icon great ver0004.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle5{
+    background:url('/skins/pic/group icon great ver0005.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle6{
+    background:url('/skins/pic/group icon great ver0006.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle7{
+    background:url('/skins/pic/group icon great ver0003.png') center no-repeat;
+}
+
+#CCC-DListPage-bigIconTitle8{
+    background:url('/skins/pic/group icon great ver0007.png') center no-repeat;
+}
+
+.CCC-DListPage-bigIconTitle div{
+    width:1200px;
+    height:36px;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size:36px;
+    text-align:center;
+    font-weight:bold;
+    color:#666666
+}
+
+.CCC-DListPage-Container{
+    width:1200px;
+    margin:0 auto;
+}
+
+#CCC-DListPage-Container-No1{
+    height:370px;
+}
+
+.CCC-DListPage-Container-titleBar{
+    height:40px;
+    width:1200px;
+    margin-bottom:15px;
+}
+
+.CCC-DListPage-Container-titleBar-icon{
+    height:40px;
+    width:40px;
+    float:left;
+}
+
+#CCC-DListPage-Container-titleBar-icon1{
+    background:url('/skins/pic/hot.png') center no-repeat;
+    background-size:contain;
+}
+
+#CCC-DListPage-Container-titleBar-icon2{
+    background:url('/skins/pic/new.png') center no-repeat;
+    background-size:contain;
+}
+
+.CCC-DListPage-Container-titleBar-text{
+    font-size:32px;
+    line-height:38px;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    float:left;
+    margin-left:40px;
+    color:#666666;
+}
+
+.CCC-newSpot{
+    width: 140px;
+    height: 30px;
+    border-radius: 16.5px;
+    background: #0099FF;
+    display: block;
+    cursor: pointer;
+    float:right;
+    margin-top:10px;
+}
+
+#CCC-icon-refresh-text{
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left:9px;
+    color: white;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.CCC-mainContainer-DListPage-Sub{
+    width:1225px;
+    height:330px;
+    margin:0 -12.5px 0 -12.5px;
+}
+
+#CCC-DListPage-Container-No2{
+    height:700px;
+}
+
+.CCC-DListPage-Adv{
+    display:block;
+    margin:0 auto;
+    margin-bottom:30px;
+    width:1200px;
+    height:120px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+#CCC-DListPage-Container-No3{
+    height:60px;
+}
+
+.CCC-DListPage-Contianer-Switch{
+    float:right;
+    display:block;
+    text-align:center;
+    width:80px;
+    height:30px;
+    margin:2px;
+    font-size:20px;
+    line-height:30px;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+
+#CCC-DListPage-Container-SwitchOff{
+    color:#666666;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#CCC-DListPage-Container-SwitchOff:hover{
+    background-color:#0099FF;
+    border-radius:15px;
+    color:white;
+    font-weight:bold;
+}
+
+#CCC-DListPage-Container-SwitchOn{
+    text-decoration:none;
+    background-color:#0099FF;
+    border-radius:15px;
+    color:white;
+    font-weight:bold;
+}
+
+#CCC-DListPage-Container-No4{
+    height:3033px;
+}
+
+/*
+    yoooooOOOOOooooooooOOOOOOoooooooo
+    以上是作品列表页所需的大部分样式
+*/
+
+.CCC-activityList-Container{
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+
+#CCC-activityList-Box{
+    width: 1207.5px;
+    overflow:hidden;
+}
+
+.CCC-activityList-Container-BoxL{
+    float: left;
+    width: 740px;
+    overflow:hidden;
+    margin-top: -3px;
+    margin-left: -4.5px;
+}
+
+.CCC-activityList-Container-BoxR{
+    float: left;
+    width: 460px;
+    overflow:hidden;
+}
+
+.CCC-activityList-Filter{
+    width:740px;
+    height:140px;
+    padding:5px 0 5px 0;
+}
+
+.CCC-activityList-Filter-Line1{
+    height:40px;
+    width:740px;
+    border-bottom:2px solid #cccccc;
+}
+
+.CCC-activityList-Filter-Line2{
+    height:40px;
+    width:740px;
+    border-bottom:2px solid #cccccc;
+    padding-top:4px;
+}
+
+.CCC-activityList-Filter-Line3{
+    height:40px;
+    width:740px;
+    padding-top:4px;
+}
+
+.CCC-activityList-Filter-Line-inline{
+    float:left;
+    display:inline-block;
+    height:32px;
+    width:85px;
+    line-height:32px;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.CCC-activityList-Filter-Line-inline-btn{
+    float:left;
+    display:block;
+    padding:2px 5px 2px 5px;
+    height:40px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.CCC-activityList-Filter-Line-inline-btn:hover{
+    text-decoration:none;
+    cursor:pointer;
+    background-color:#0099FF;
+    border-radius:20px;
+}
+
+.CCC-activityList-Filter-Line-inline-btnClicked{
+    float:left;
+    display:block;
+    padding:2px 5px 2px 5px;
+    height:40px;
+    text-decoration:none;
+    cursor:text;
+    background-color:#0099FF;
+    border-radius:20px;
+}
+
+.CCC-activityList-Filter-Line-inline-btn-text{
+    float:left;
+    color:#666666;
+    line-height:36px;
+    font-size:18px;
+}
+
+.CCC-activityList-Filter-Line-inline-btn-textClicked{
+    float:left;
+    color:white;
+    line-height:36px;
+    font-size:18px;
+}
+
+.CCC-activityList-Filter-Line-inline-btn-pic{
+    float:left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-image:url('/skins/pic/activity icon B.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:3px;
+    margin-right:3px;
+}
+
+.CCC-activityList-Filter-Line-inline-btn-picClicked{
+    float:left;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-image:url('/skins/pic/activity icon W.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:3px;
+    margin-right:3px;
+}
+
+
+#CCC-activityList-Filter-Line-inline-btn-pic1{
+    background-position:0px 0px;
+}
+
+#CCC-activityList-Filter-Line-inline-btn-pic2{
+    background-position:-140px 0px;
+}
+
+#CCC-activityList-Filter-Line-inline-btn-pic3{
+    background-position:-270px 0px;
+}
+
+#CCC-activityList-Filter-Line-inline-btn-pic4{
+    background-position:-414px 0px;
+}
+
+#CCC-activityList-Filter-Line-inline-btn-pic5{
+    background-position:-551px 0px;
+}
+
+#CCC-activityList-Filter-Line-inline-btn-pic6{
+    background-position:-695px 0px;
+}
+
+.CCC-activityList-Container-BoxR-Region{
+    float:left;
+    width:450px;
+    height:450px;
+    padding:20px 0 0 20px;
+    background-color:white;
+}
+
+.CCC-activityList-Container-BoxR-Region-Title{
+    width:430px;
+    height:38px;
+    margin-bottom:20px;
+}
+
+.CCC-activityList-Container-BoxR-Region-TextBox{
+    width:430px;
+}
+
+.CCC-activityList-Container-BoxR-Region-TextBox a{
+    float:left;
+    width:100px;
+    display:inline-block;
+    text-decoration:none;
+    color:#999999;
+    cursor:pointer;
+    margin-right:38px;
+    margin-bottom:10px;
+}
+
+.CCC-activityList-Container-BoxR-Region-TextBox a:hover{
+    text-decoration:none;
+    color:#cccccc;
+    cursor:pointer;
+}
+
+/*
+    yoooooooooooooooOOOOOOOOOOOOooooooooooo
+    以上是活动列表页所需的大部分样式，还有一些用了下面的。
+*/
+
+.CCC-taskList-Title{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    background:url('/skins/pic/mission banner.png');
+}
+
+#CCC-activityList-Container-BoxR-Region-FilterII{
+    float:left;
+    width:100px;
+    display:inline-block;
+    text-decoration:none;
+    color:#999999;
+    cursor:pointer;
+    margin-right:38px;
+    margin-bottom:10px;
+}
+
+#CCC-activityList-Container-BoxR-Region-FilterII:hover{
+    text-decoration:none;
+    color:#cccccc;
+    cursor:pointer;
+}
+
+#CCC-activityList-Container-BoxR-Region-FilterIIClicked{
+    float:left;
+    width:100px;
+    display:inline-block;
+    text-decoration:none;
+    color:#999999;
+    cursor:pointer;
+    margin-right:38px;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:#0099FF;
+}
+
+#CCC-activityList-Container-BoxR-Region-FilterIIClicked:hover{
+    text-decoration:none;
+    color:#0099FF;
+    cursor:text;
+}
+
+#CCC-activityList-Container-BoxR-PuBtn{
+    text-decoration: none;
+    display: block;
+    width: 450px;
+    height: 105px;
+    border-radius: 7px;
+    background: #0099FF;
+    cursor: pointer;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 105px;
+}
+
+.CCC-taskList-Filter-Line-inline-btn-pic{
+    float:left;
+    display:inline-block;
+    width:27px;
+    height:27px;
+    background-image:url('/skins/pic/mission icon B.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:4px;
+    margin-right:3px;
+}
+
+#CCC-taskList-Filter-Line-inline-btn-pic1{
+    background-position:0px 0px;
+}
+
+#CCC-taskList-Filter-Line-inline-btn-pic2{
+    background-position:-161px 0px;
+}
+
+#CCC-taskList-Filter-Line-inline-btn-pic3{
+    background-position:-324px 0px;
+}
+
+#CCC-taskList-Filter-Line-inline-btn-pic4{
+    background-position:-479px 0px;
+}
+
+#CCC-taskList-Filter-Line-inline-btn-pic5{
+    background-position:-641px 0px;
+}
+
+.CCC-taskList-Filter-Line-inline-btn-picClicked{
+    float:left;
+    display:inline-block;
+    width:27px;
+    height:27px;
+    background-image:url('/skins/pic/mission icon W.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:4px;
+    margin-right:3px;
+}
+
+.CCC-AvatarS{
+    float:left;
+    width:50px;
+    height:75px;
+    background:url('/skins/pic/head.png') no-repeat;
+    background-size:contain;
+}
+
+.CCC-AvatarS-Cover{
+    width:50px;
+    height:54px;
+    background:url('/skins/pic/sampleAvatar1.gif') center no-repeat;
+    background-size:cover;
+    -webkit-mask-image:url('/skins/pic/head big orin.png');
+    -webkit-mask-position:center;
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-size:50px;
+}
+
+/*
+    yooooooooooooooOOOOOOOOoooooooo
+    以上是任务列表页所需的大部分样式
+*/
+
+.CCC-topicList-Filter-Line-inline-btn-pic{
+    float:left;
+    display:inline-block;
+    width:27px;
+    height:27px;
+    background-image:url('/skins/pic/topic icon B.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:4px;
+    margin-right:3px;
+}
+
+.CCC-topicList-Filter-Line-inline-btn-picClicked{
+    float:left;
+    display:inline-block;
+    width:27px;
+    height:27px;
+    background-image:url('/skins/pic/topic icon W.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    margin-top:4px;
+    margin-right:3px;
+}
+
+#CCC-topicList-Filter-Line-inline-btn-pic1{
+    background-position:0px 0px;
+}
+
+#CCC-topicList-Filter-Line-inline-btn-pic2{
+    background-position:-42px 0px;
+}
+
+.CCC-topicList-Title{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    background:url('/skins/pic/XIABIBI.png');
+    background-size:contain;
+}
+
+/*
+    yooooooooooooooOOOOOOOOoooooooo
+    以上是话题列表页所需的大部分样式
+*/
+
+#CCC-Header-Search{
+    height: auto;
+    width: 1200px;
+    margin:20px auto 0 auto;
+}
+
+#CCC-Header-Search .CCC-Logo-Input{
+    position:relative;
+    height:43px;
+}
+
+#CCC-Header-Search #CCC-Search-Block{
+    height: 42px;
+    width: 430px;
+    position: absolute;
+    left: 376px;
+}
+
+#CCC-Header-Search #CCC-Search-Block .CCC-Input-warp{
+    height: 100%;
+    position: relative;
+    width: 296px;
+    background: #ededed;
+    border-radius: 4px;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    color: #222;
+}
+
+#CCC-Header-Search #CCC-Search-Block .CCC-Input-warp input{
+    width: 296px;
+    border: 0;
+    height: 36px;
+    box-shadow: none;
+    padding: 19px 15px;
+    background: #fff;
+    border: 2px solid #ccd0d7;
+    border-radius: 4px;
+    color: #222;
+    outline: 0;
+}
+
+#CCC-Header-Search #CCC-Search-Block #CCC-Search-Button{
+    display:block;
+    text-decoration:none;
+    cursor: pointer;
+    float: left;
+    width: 90px;
+    color: #fff;
+    background: #0099FF;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    text-align: center;
+    transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-Header-Search #CCC-Search-Block #CCC-Search-Button:hover{
+    background: #b7e5ff;
+}
+
+.CCC-Search-Nav-Sub{
+    width: 878px;
+    height: 54px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ccd0d7;
+    padding-bottom: 1px;
+}
+
+.CCC-Search-Nav-Sub .CCC-Search-Nav-Sub-wrap{
+    height: 100%;
+    margin: 0 auto;
+    width: 697px;
+}
+
+.CCC-Search-Nav-Sub-wrap-sub{
+    float: left;
+    width: 39px;
+    height: 100%;
+    line-height: 54px;
+    font-size: 18px;
+    color: #222;
+    margin-right: 90px;
+    text-align: center;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    transition:all 03s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+.CCC-Search-Nav-Sub-wrap-sub:hover{
+    color:#0099FF;
+}
+
+.CCC-Search-Nav-Sub-wrap-sub-active{
+    border-bottom: 2px solid #00a1d6;
+}
+
+.CCC-mainContainer-SearchList{
+    margin:0 auto;
+    width:1225px;
+    overflow:hidden;
+}
+
+.CCC-activityList-Filter-Line-SearchMode{
+    width:980px;
+}
+
+.CCC-activityList-Filter-Line-SearchMode .CCC-activityList-Filter-Line-inline-btn{
+    margin-left:30px;
+}
+
+.CCC-activityList-Filter-Line-SearchMode .CCC-activityList-Filter-Line-inline-btnClicked{
+    margin-left:30px;
+}
+
+/*
+    yoooooooooooOOOOOOOOOOOOooooooooooo
+    以上是除了玩家搜索结果以外，别的四个搜索页所需的全部样式
+*/
+
+.CCC-playerList-Title{
+    width:1200px;
+    height:300px;
+    margin:0 auto;
+    background:url(/skins/pic/sampleBanner.jpg) 50% 0px no-repeat;
+    background-size:cover;
+}
+
+.CCC-playList-activePlayer-warp{
+    height:235px;
+    width:1200px;
+    margin:0 auto;
+    padding:10px 0;
+}
+
+.CCC-playList-activePlayer-warp-Title{
+    height:36px;
+    width:200px;
+    margin-bottom:14px;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color:#666666;
+}
+
+.CCC-playList-activePlayer-warp-Title div{
+    float:left;
+    margin-right:10px;
+}
+
+#CCC-playList-activePlayer-warp-Title-icon{
+    height:36px;
+    width:36px;
+    background:url('/skins/pic/personal s.png') center no-repeat;
+    background-size:contain;
+}
+
+.CCC-playList-activePlayer-warp-AvatarBox{
+    height:175px;
+    width:1200px;
+}
+
+.CCC-playList-activePlayer-warp-AvatarBox a{
+    float:left;
+    margin-left:17px;
+    cursor:pointer;
+    display:block;
+}
+
+.CCC-AvatarL{
+    width:135px;
+    height:155px;
+    background:url('/skins/pic/head big.png') no-repeat;
+    background-size:contain;
+}
+
+.CCC-AvatarL-Cover{
+    width: 135px;
+    height: 147px;
+    background: url('/skins/pic/sampleAvatar1.gif') center no-repeat;
+    background-size: cover;
+    -webkit-mask-image: url('/skins/pic/head big orin.png');
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 135px;
+}
+
+.CCC-playerList-ListWarp{
+    margin:0 auto;
+    width:1200px;
+    overflow:hidden;
+    background-color:white;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+
+.CCC-playerList-ListWarp-Block{
+    height:280px;
+    width:1200px;
+    padding-left:50px;
+    border-bottom:1px solid #666666;
+}
+
+.CCC-playerList-ListWarp-Block-Level{
+    height:20px;
+    width:1200px;
+    margin-bottom:20px;
+}
+
+.CCC-playerList-ListWarp-Block-partL{
+    float:left;
+    width:150px;
+    height:205px;
+}
+
+.CCC-AvatarXL{
+    float:left;
+    display:block;
+    width:150px;
+    height:172px;
+    background:url('/skins/pic/head big.png') no-repeat;
+    background-size:contain;
+}
+
+.CCC-AvatarXL-Cover{
+    width: 150px;
+    height: 163px;
+    background: url('/skins/pic/sampleAvatar1.gif') center no-repeat;
+    background-size: cover;
+    -webkit-mask-image: url('/skins/pic/head big orin.png');
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 150px;
+}
+
+#CCC-ConcernBtn{
+    float:left;
+    display:block;
+    width:55px;
+    height:25px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius:10px;
+    background-color:#0099FF;
+    color:white;
+    font-size:18px;
+}
+
+#CCC-MsgBtn{
+    float:left;
+    display:block;
+    width:55px;
+    height:25px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius:10px;
+    background-color:#999999;
+    color:white;
+    font-size:18px;
+}
+
+.CCC-playerList-ListWarp-Block-partM{
+    float:left;
+    width:420px;
+    height:205px;
+    margin-left:45px;
+    padding-top:15px;
+    font-size:20px;
+}
+
+div.CCC-Playlist-BlockMode{
+    width:420px;
+}
+
+#CCC-GenderIcon{
+    width:30px;
+    height:25px;
+    background:url('/skins/pic/SEX OTHER.png') no-repeat;
+    background-size:contain;
+}
+
+.CCC-Playlist-BlockMode-GenderIcon{
+    float:left;
+    margin-left:15px;
+}
+
+.CCC-messageBoxM-textBox-nickname-playList-BlockMode{
+    float:left;
+    display:inline-block;
+    width:auto;
+}
+
+.CCC-playerList-ListWarp-Block-partR{
+    float:left;
+    width:490px;
+    height:160px;
+    padding-top:10px;
+}
+
+.CCC-playerList-ListWarp-Block-partR a{
+    float:left;
+    display:block;
+    height:150px;
+    width:150px;
+    cursor:pointer;
+    background: url('/skins/pic/sampleCover.gif') center no-repeat;
+    background-size: cover;
+    margin-right:12px;
+}
+
+/*
+    yoooooooooooooOOOOOOOOOOOOOOOOOOOOOOOOoooooooooo
+    以上是玩家列表页所需的大部分样式
+*/
+
+.CCC-activityPublish-Warp{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    color: #555555;
+}
+
+.CCC-activityPublish-titleWarp{
+    height: 240px;
+    width: 1200px;
+    background-color:#0099FF;
+    text-align: center;
+    color:#FFFFFF;
+    margin-bottom:20px;
+}
+
+.CCC-activityPublish-titleMain{
+    display:inline-block;
+    width:300px;
+    height:75px;
+    font-weight:bold;
+    font-size:53px;
+    border-bottom:1px solid #FFFFFF;
+    margin-top:55px;
+}
+
+.CCC-activityPublish-titleSub{
+    font-family: 'Century Gothic',Arial,Helvetica,sans-serif;
+    font-size:28px;
+}
+
+.CCC-activityPublish-Container{
+    background-color:white;
+    overflow:hidden;
+    margin-bottom:30px;
+    width:1200px;
+    padding:39px 0 0 184px;
+}
+
+.CCC-activityPublish-ContainerL{
+    width:650px;
+    overflow:hidden;
+    margin-bottom:30px;
+    float:left;
+}
+
+.CCC-activityPublish-ContainerR{
+    width:366px;
+    height:678px;
+    float:left;
+}
+
+.CCC-activityPublish-Block{
+    width:700px;
+    height:30px;
+    margin-bottom:20px;
+}
+
+.CCC-activityPublish-Block-Title{
+    font-size:18px;
+    font-weight:bold;
+    padding:3px 0 0 0;
+    float:left;
+    margin-right:34px;
+}
+
+.CCC-activityPublish-Block-Container{
+    float:left;
+}
+
+.CCC-activityPublish-inputBtn{
+    float:left;
+    margin:4px -76px 0 4px;
+}
+
+.CCC-activityPublish-inputUrl{
+    float:right;
+    padding-left: 85px;
+    width:493px;
+}
+
+.CCC-activityPublish-input{
+    float:right;
+    width:493px;
+}
+
+.CCC-activityPublish-select{
+    float:left;
+    width:151px;
+    text-align:center;
+    margin-right:20px;
+}
+
+.CCC-activityPublish-Block-checkDot{
+    float:left;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.CCC-activityPublish-inputPriceTag{
+    float:left;
+    font-size:18px;
+    line-height:34px;
+    color:#cccccc;
+    font-weight:bold;
+    margin-left:-173px;
+}
+
+.CCC-activityPublish-inputPrice{
+    float:left;
+    padding-left:24px;
+    margin-left:7px;
+    width:180px;
+}
+
+.CCC-activityPublish-inputSorter{
+    float:left;
+    width:180px;
+    margin-left:15px;
+    border-style:dashed;
+}
+
+#CCC-activityPublish-BlockAbstract{
+    height:80px;
+}
+
+#CCC-activityPublish-BlockContent{
+    height:160px;
+}
+
+#CCC-activityPublish-Block-Container-ActivityAbstract{
+    height:80px;
+}
+
+#CCC-activityPublish-Block-Container-ActivityContent{
+    height:160px;
+}
+
+.CCC-activityPublish-inputArea{
+    width:493px;
+    resize:none;
+}
+
+#CCC-activityPublish-inputAreaAbstract{
+    height:80px;
+}
+
+#CCC-activityPublish-inputAreaContent{
+    height:160px;
+}
+
+#CCC-PublishBtn{
+    display:block;
+    height:30px;
+    width:200px;
+    margin-left:250px;
+    color:white;
+    background-color:#0099FF;
+    border:2px solid #0099FF;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+    transition:all 03s;
+    -moz-transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+
+#CCC-PublishBtn:hover{
+    background-color:white;
+    color:#0099FF;
+}
+
+#CCC-tile-clearer{
+    border:0;
+    cursor:auto;
+}
+
+#CCC-tile-clearer:hover{
+    border:0;
+}
+
+/*
+    yoooooooooooooOOOOOOOOOOOOOOOOOOOOOOOOoooooooooo
+    以上是活动发布页所需的大部分样式
+*/
+
+#CCC-groupPN{
+    width:220px;
+    padding-right: 25px;
+}
+
+.CCC-groupP{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: -23px;
+    color:#cccccc;
+    font-weight:bold;
+}
+
+#CCC-groupInfoL{
+    width:160px;
+    margin-right:6px;
+}
+
+#CCC-groupN{
+    float:left;
+    width:150px;
+    padding-left:25px;
+}
+
+#CCC-groupN-AT{
+    margin-left:-145px;
+}
+
+.CCC-group-text{
+    clear:right;
+}
+
+.CCC-groupADD-btn{
+    margin-left:105px;
+    margin-bottom:20px;
+    width: 150px;
+    border: 1px dashed #ccc;
+    background-color: #fff;
+    color:#cccccc
+}

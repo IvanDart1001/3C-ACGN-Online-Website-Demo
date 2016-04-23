@@ -1,0 +1,66 @@
+	.Gn-register
+	{   
+		margin:0 auto;
+		text-align: center;
+        margin-top: 160px;
+        width:960px;
+        height:370px;}
+	.picture
+	{   float:left;
+		margin:0;}
+	div.text
+	{   margin-left:555px;
+		margin-top:55px;
+		height:100%;
+		text-align:center;
+		borber:10px;}
+    p{
+        font-family:  "Microsoft YaHei";
+        text-align: left;
+    }
+	p#g1
+	{
+		color:#666666;
+		font-size:83px;
+        font-weight: bold;
+	}
+	p#g2
+	{
+		color:#666666;
+		font-size:32px;
+	}
+	p#g3
+	{
+		color:#cccccc;
+		font-size:15px;
+	}
+
+    p#g3 span{
+    	display: inline-block;
+    }
+
+    .jump
+    {
+    	
+        background-color: #80CCFF;
+        font-size:15px;
+        color:#FFFFFF;
+        font-family:  "Microsoft YaHei";
+        border-radius:5px;
+        cursor:pointer;
+        height:30px;
+        width: 90px;
+        text-decoration: none;
+   		line-height: 23px;
+    	text-align: center;
+    	font-weight: bold;
+    	border: 5px solid #80CCFF;
+    	transition: all 0.3s;
+    }
+
+    .jump:hover{
+    	text-decoration: none;
+    	cursor:pointer;
+    	color:#80CCFF;
+    	background-color: white;
+    }
