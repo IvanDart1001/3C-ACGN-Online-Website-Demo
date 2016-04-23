@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3C-Online(๑•̀ㅂ•́)و</title>
+    <link rel="shortcut icon" href="/skins/pic/ICON.png" />
+    <link type="text/css" rel=" stylesheet" href="skins/css/bootstrap.min.css" />
+    <link type="text/css" rel=" stylesheet" href="skins/css/userpageMC.css" />
+    <link type="text/css" rel=" stylesheet" href="skins/css/personal_task.css" />
+    <link type="text/css" rel=" stylesheet" href="skins/css/CCCstyle.css"/>
+    <script type="text/javascript" src="skins/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="skins/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #cecece;">
+    <div class="CCC-header-bg"></div>
+    <div class="CCC-header">
+        <div class="CCC-page-title-pic"></div>
+        <div class="CCC-nav">
+            <a id="CCC-link" class="CCC-nav-tag" href="#">首页</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">大组</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">活动</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">任务</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">漫客</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">影业</a>
+            <div class="CCC-search">
+                <form>
+                    <input type="text" class="CCC-search-keyword" placeholder="奥义♂很爽">
+                    <button type="submit" class="CCC-search-launch"></button>
+                </form>
+            </div>
+        </div>
+        <div class="CCC-account-bar">
+            <div class="CCC-account-bar-icon">
+                <a id="CCC-account-bar-icon3"></a>
+            </div>
+            <div class="CCC-account-bar-icon">
+                <a id="CCC-account-bar-icon2"></a>
+            </div>
+            <div class="CCC-account-bar-icon">
+                <a id="CCC-account-bar-icon1"></a>
+            </div>
+        </div>
+        <a id="CCC-nav-publishBtn"></a>
+    </div>
+    <!--[if IE]>
+        <script>
+            alert("我们的前端攻城狮宝宝被您的浏览器内核给吓到了！！（攻城狮：我好方！\n建议试试chrome、firefox、safari或者edge浏览器吧！")
+        </script>
+    <![endif]-->
+    <!--页头-->
+    <!--↓↓↓↓↓↓↓主体部分↓↓↓↓↓↓↓-->
+    <div class="Gn_container">
+    <div class="CCC-userInfoBar">
+        <div class="CCC-userInfoBar-title">USER NAME</div>
+        <div id="CCC-userInfoBar-bg1" class="CCC-userInfoBar-bg"></div>
+        <div id="CCC-userInfoBar-bg2" class="CCC-userInfoBar-bg"></div>
+        <div class="CCC-userInfoBar-container">
+            <div id="CCC-userInfoBar-level1" class="CCC-userInfoBar-level">Lv 99</div>  <!--后端数据交互-->
+            <div id="CCC-userInfoBar-avatarDefault" class="CCC-userInfoBar-avatar"></div>
+            <a id="CCC-userInfoBar-avatarSettings" href="#"><div id="CCC-userInfoBar-avatar" class="CCC-userInfoBar-avatar" style="background:url('/skins/pic/sampleAvatar1.gif');background-size: 138%;background-position: -45px -6px;transform: scale(0.66);margin-right: 30px;"></div></a>
+            <div id="CCC-userInfoBar-mark" style="background: url(/skins/pic/mark.png) no-repeat;background-size: contain;"></div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">创造力</span><span id="CCC-userInfoBar-status-tag2">unknown</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">吐槽力</span><span id="CCC-userInfoBar-status-tag2">190</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">精神力</span><span id="CCC-userInfoBar-status-tag2">312</span></div>
+            </div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">存在感</span><span id="CCC-userInfoBar-status-tag2">937</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">现充度</span><span id="CCC-userInfoBar-status-tag2">12</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">F F F团</span><span id="CCC-userInfoBar-status-tag2">是</span></div>
+            </div>
+            <div id="CCC-userInfoBar-emphasis1" class="CCC-userInfoBar-status">
+                <span id="CCC-userInfoBar-status-tag3">信用等级</span><span id="CCC-userInfoBar-status-tag4">SSS</span>
+            </div>
+            <div id="CCC-userInfoBar-emphasis2" class="CCC-userInfoBar-status">
+                <div id="CCC-userInfoBar-status-tag5"></div><span id="CCC-userInfoBar-status-tag6">8435C</span>
+            </div>
+        </div>
+    </div>
+    <div class="CCC-userStatusChart">
+        <div class="CCC-userStatusChart-navbar">
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon1" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">个人资料</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon2" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的活动</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的任务</div>
+                
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon4" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">作品盒子</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon5" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的话题</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+               <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon6" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的世界</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="column">
+    <div class="Gn_text">
+    <br>
+    <div class="button">
+    <button class="Gn_button1">我发布的</button>
+    <button class="Gn_button2">我参与的</button> 
+    <br>
+    </div>
+        <div class="CCC-activityList-Filter" style="margin:0 auto;font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif; width:980px;">
+            <div class="CCC-activityList-Filter-Line1 CCC-activityList-Filter-Line-SearchMode">
+                <span class="CCC-activityList-Filter-Line-inline">任务类型</span>
+                <a class="CCC-activityList-Filter-Line-inline-btn">
+                    <span class="CCC-activityList-Filter-Line-inline-btn-text">全部</span>
+                </a>
+                <a class="CCC-activityList-Filter-Line-inline-btnClicked">
+                    <span id="CCC-taskList-Filter-Line-inline-btn-pic1" class="CCC-taskList-Filter-Line-inline-btn-picClicked"></span>
+                    <span class="CCC-activityList-Filter-Line-inline-btn-textClicked">个人任务</span>
+                </a>
+                <a class="CCC-activityList-Filter-Line-inline-btn">
+                    <span id="CCC-taskList-Filter-Line-inline-btn-pic2" class="CCC-taskList-Filter-Line-inline-btn-pic"></span>
+                    <span class="CCC-activityList-Filter-Line-inline-btn-text">活动任务</span>
+                </a>
+                <a class="CCC-activityList-Filter-Line-inline-btn">
+                    <span id="CCC-taskList-Filter-Line-inline-btn-pic3" class="CCC-taskList-Filter-Line-inline-btn-pic"></span>
+                    <span class="CCC-activityList-Filter-Line-inline-btn-text">史诗任务</span>
+                </a>
+                <a class="CCC-activityList-Filter-Line-inline-btn">
+                    <span id="CCC-taskList-Filter-Line-inline-btn-pic4" class="CCC-taskList-Filter-Line-inline-btn-pic"></span>
+                    <span class="CCC-activityList-Filter-Line-inline-btn-text">企业任务</span>
+                </a>
+                <a class="CCC-activityList-Filter-Line-inline-btn">
+                    <span id="CCC-taskList-Filter-Line-inline-btn-pic5" class="CCC-taskList-Filter-Line-inline-btn-pic"></span>
+                    <span class="CCC-activityList-Filter-Line-inline-btn-text">事业任务</span>
+                </a>
+            </div>
+            <div class="CCC-activityList-Filter-Line2 CCC-activityList-Filter-Line-SearchMode">
+                <span class="CCC-activityList-Filter-Line-inline">所在地区</span>
+                <select class="form-control" style="width:150px;float:left;height:32px;">
+                    <option>中国</option>
+                </select>
+                <select class="form-control" style="width:150px;float:left;height:32px;margin-left:10px;">
+                    <option>上海</option><!--以后在哪有任务就开啥地点。。中国省市太多，懒得输入了，谁看到就帮个忙233-->
+                </select>
+            </div>
+            <div class="CCC-activityList-Filter-Line3 CCC-activityList-Filter-Line-SearchMode">
+                <span class="CCC-activityList-Filter-Line-inline">默认排序</span>
+                <select class="form-control" style="width:150px;float:left;height:32px;">
+                    <option>按日期升序</option>
+                    <option>按日期降序</option>
+                </select>
+                <select class="form-control" style="width:150px;float:left;margin-left:10px;height:32px;">
+                    <option>按信用升序</option>
+                    <option>按信用降序</option>
+                </select>
+                <select class="form-control" style="width:150px;float:left;margin-left:10px;height:32px;">
+                    <option>按悬赏升序</option>
+                    <option>按悬赏降序</option>
+                </select>
+                <select class="form-control" style="width:150px;float:left;margin-left:10px;height:32px;">
+                    <option>按等级限制升序</option>
+                    <option>按等级限制降序</option>
+                </select>
+            </div>
+        </div>
+    <br>
+    </div>
+    <div class="pic">
+    <div class="CCC-mainContainer-activityL" style="width:980px;">
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="CCC-mainContainer-activity-tile">
+                    <div class="CCC-mainContainer-activity-tile-image" style="background-image:url(skins/pic/sampleAvatar1.gif)"></div>
+                    <div class="CCC-mainContainer-activity-tile-info">
+                        <div class="CCC-mainContainer-activity-tile-infoU">
+                            <div class="CCC-mainContainer-activity-tile-info-title">
+                                <p id="CCC-mainContainer-activity-tile-info-titlemain">标题最多十一个中文字符</p>
+                                <p id="CCC-mainContainer-activity-tile-info-titlesub">这是一段活动简介文……</p>
+                            </div>
+                            <div id="CCC-mainContainer-activity-tile-info-titlelocation">上海</div>
+                        </div>
+                        <div class="CCC-mainContainer-activity-tile-infoD">
+                            <p id="CCC-mainContainer-activity-tile-infoDL">2016/01/01</p>
+                            <p id="CCC-mainContainer-activity-tile-infoDR">已有 20/50 人参加</p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="CCC-production-content-reply-bottomLink"style="width:960px">
+                 <a id="CCC-production-content-reply-bottomLink-getmore" style="width:960px">加载更多</a>
+                    <a id="CCC-production-content-reply-bottomLink-FirstPage"style="width:478px">第 1 页</a>
+                    <a id="CCC-production-content-reply-bottomLink-NextPage" style="margin-left:2px;width:478px">下一页</a>
+            </div>
+    </div>
+    </div>
+    <!--↑↑↑↑↑↑↑主体部分↑↑↑↑↑↑↑-->
+    <div class="CCC-footer-bg">
+        <div id="CCC-footer-bg1"></div>
+        <div id="CCC-footer-bg2"></div>
+        <div id="CCC-footer-bg3"></div>
+    </div>
+    <div class="CCC-footer-bar">
+        <div id="CCC-footer-bar1" class="CCC-footer-bar">
+            <div class="CCC-footer-slogan"></div>
+            <div class="CCC-footer-info"><a id="CCC-link" href="#" style="color:inherit;">了解我们 ></a></div>
+            <div class="CCC-footer-info-nav">
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">关注我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">团队介绍</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">加入我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">大大招募</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">联系我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">常见问题</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">意见反馈</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">隐私政策</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">商务合作</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">友情链接</a></span>
+            </div>
+        </div>
+        <div id="CCC-footer-bar2" class="CCC-footer-bar">
+            <div class="CCC-footer-bar-pub">
+                <a id="CCC-footer-pub-tag1" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag2" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag3" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag4" class="CCC-footer-pub-tag" href="#"></a>
+            </div>
+        </div>
+        <div id="CCC-footer-bar3" class="CCC-footer-bar">
+            <span class="CCC-copyright">沪ICP备00000000号|Copyright &copy;2016 上海网络科技有限公司 3c-online.club</span>
+        </div>
+    </div>
+    <!--页脚-->
+    <script type="text/javascript" src="skins/js/animation.js"></script>
+</body>
+</html>

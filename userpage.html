@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3C-Online(๑•̀ㅂ•́)و</title>
+    <link rel="shortcut icon" href="/skins/pic/ICON.png" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/CCCstyle.css" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/CCCOtherDataBaseCore.css" />  <!--后端修改url-->
+    <link type="text/css" rel="stylesheet" href="/skins/css/TimeLineStyle.css" />
+    <script type="text/javascript" src="/skins/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/skins/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#ededed;">
+    <div class="CCC-header-bg"></div>
+    <div class="CCC-header">
+        <div class="CCC-page-title-pic"></div>
+        <div class="CCC-nav">
+            <a id="CCC-link" class="CCC-nav-tag" href="#">首页</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">大组</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">活动</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">任务</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">漫客</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">影业</a>
+            <div class="CCC-search">
+                <form>
+                    <input type="text" class="CCC-search-keyword" placeholder="奥义♂很爽">
+                    <button type="submit" class="CCC-search-launch"></button>
+                </form>
+            </div>
+            <div class="CCC-account-tag">
+                <div class="CCC-account-tag-btn"><a id="CCC-link" href="#" style="color:inherit;">登录</a></div>
+                <div id="CCC-colorful-egg" class="CCC-account-tag-btn">
+                    <a id="CCC-link" class="CCC-account-tag-btn" href="http://imgsrc.baidu.com/forum/w=580/sign=581796a9bca1cd1105b672288913c8b0/4647d12a2834349ba3f01c1ccfea15ce37d3be1b.jpg"> | </a>
+                </div>
+                <div class="CCC-account-tag-btn"><a id="CCC-link" href="#" style="color:inherit;">注册</a></div>
+            </div>
+        </div>
+        <a id="CCC-nav-publishBtn"></a>
+    </div>
+    <!--[if IE]>
+        <script>
+            alert("我们的前端攻城狮宝宝被您的浏览器内核给吓到了！！（攻城狮：我好方！\n建议试试chrome、firefox、safari或者edge浏览器吧！")
+        </script>
+    <![endif]-->
+    <!--页头-->
+    <!--↓↓↓↓↓↓↓主体部分↓↓↓↓↓↓↓-->
+    <div class="CCC-userInfoBar">
+        <div class="CCC-userInfoBar-title">USER NAME</div>
+        <div id="CCC-userInfoBar-bg1" class="CCC-userInfoBar-bg"></div>
+        <div id="CCC-userInfoBar-bg2" class="CCC-userInfoBar-bg"></div>
+        <div class="CCC-userInfoBar-container">
+            <div id="CCC-userInfoBar-level1" class="CCC-userInfoBar-level">Lv 99</div>  <!--后端数据交互-->
+            <div id="CCC-userInfoBar-avatarDefault"class="CCC-userInfoBar-avatar"></div>
+            <a id="CCC-userInfoBar-avatarSettings" href="#"><div id="CCC-userInfoBar-avatar" class="CCC-userInfoBar-avatar" style="background:url('/skins/pic/sampleAvatar1.gif');background-size: 138%;background-position: -45px -6px;transform: scale(0.66);margin-right: 30px;"></div></a>
+            <div id="CCC-userInfoBar-mark" style="background: url(/skins/pic/mark.png) no-repeat;background-size: contain;"></div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">创造力</span><span id="CCC-userInfoBar-status-tag2">unknown</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">吐槽力</span><span id="CCC-userInfoBar-status-tag2">190</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">精神力</span><span id="CCC-userInfoBar-status-tag2">312</span></div>
+            </div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">存在感</span><span id="CCC-userInfoBar-status-tag2">937</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">现充度</span><span id="CCC-userInfoBar-status-tag2">12</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">F F F团</span><span id="CCC-userInfoBar-status-tag2">是</span></div>
+            </div>
+            <div id="CCC-userInfoBar-emphasis1" class="CCC-userInfoBar-status">
+                <span id="CCC-userInfoBar-status-tag3">信用等级</span><span id="CCC-userInfoBar-status-tag4">SSS</span>
+            </div>
+            <div id="CCC-userInfoBar-emphasis2" class="CCC-userInfoBar-status">
+                <div id="CCC-userInfoBar-status-tag5"></div><span id="CCC-userInfoBar-status-tag6">8435C</span>
+            </div>
+        </div>
+    </div>
+    <div class="CCC-userStatusChart">
+        <div class="CCC-userStatusChart-navbar">
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">个人资料</div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon2" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的活动</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon3" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的任务</div>
+                </div>
+
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon4" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">作品盒子</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon5" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的话题</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon6" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的世界</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="CCC-userStatusChart-personalDataBase">
+        <div class="CCC-userStatusChart-personalDataBaseUI_version1">
+            <div id="CCC-userStatusChart-personalDataBaseUI-core" style="background:url('/skins/pic/personal other orin.png') no-repeat;background-size: contain;">  <!--后台修改url-->
+                <a id="CCC-userStatusChart-personalDataBaseUI-coreL" class="CCC-userStatusChart-personalDataBaseUI-core" href="#"></a>
+                <div id="CCC-userStatusChart-personalDataBaseUI-core-Blank" class="CCC-userStatusChart-personalDataBaseUI-core"></div>
+                <a id="CCC-userStatusChart-personalDataBaseUI-coreR" class="CCC-userStatusChart-personalDataBaseUI-core" href="#"></a>
+            </div>
+            <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL1" class="CCC-userStatusChart-personalDataBaseUI-DataTagL">
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL-partL">
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-Data" style="font-size:50px">COMPLETED</div>
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-marking">VIRTUAL ACCOUNT</div>
+                    <div class="CCC-animation-processArrow" style="visibility:hidden"></div>
+                </div>
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL-pointLine"></div>
+            </div>
+            <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL2" class="CCC-userStatusChart-personalDataBaseUI-DataTagL">
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL-partL">
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-Data" style="font-size:90px">Lv&nbsp;98</div>
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-marking">ACCOUNT LEVEL</div>
+                    <div class="CCC-animation-processArrow" style="visibility:hidden"></div>
+                </div>
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagL-pointLine" style="transform: rotateY(180deg);margin-top: 16px;"></div>
+            </div>
+            <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR1" class="CCC-userStatusChart-personalDataBaseUI-DataTagR">
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR-partR">
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-Data" style="font-size:81px">58%</div>
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-marking">REAL-LIFE ACCOUNT</div>
+                    <div class="CCC-animation-processArrow" style="margin-left: -25px;visibility:visible;"></div>
+                </div>
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR-pointLine" style="transform: rotateX(180deg);margin-top: 42px;"></div>
+            </div>
+            <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR2" class="CCC-userStatusChart-personalDataBaseUI-DataTagR">
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR-partR">
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-Data" style="font-size:72px">12%</div>
+                    <div class="CCC-userStatusChart-personalDataBaseUI-DataTag-marking">PROFESSIONAL STATUS</div>
+                    <div class="CCC-animation-processArrow" style="margin-left: -25px;visibility:visible;"></div>
+                </div>
+                <div id="CCC-userStatusChart-personalDataBaseUI-DataTagR-pointLine" style="transform: rotate(180deg) rotateZ(180deg);margin-top: 36px;"></div>
+            </div>
+            <div id="CCC-userStatusChart-personalDataBaseUI-code">
+                <div id="CCC-userStatusChart-personalDataBaseUI-code-container">
+                    <div id="CCC-userStatusChart-personalDataBaseUI-code-containerU">TITLE</div>
+                    <div id="CCC-userStatusChart-personalDataBaseUI-code-containerD">去年〇〇至今</div>
+                </div>
+            </div>
+        </div>
+        <div class="CCC-userStatusChart-verticalBar">
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon1" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">ILLUSTRATOR</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon2" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">COSER</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon3" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">COSMETICIAN</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon4" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">TAILOR</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon5" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">PROP MASTER</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon6" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon b.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">DANCER</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon7" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">MUSICIAN</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon8" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon b.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">MODELER</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon9" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon b.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">AUTHOR</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon10" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">PHOTOGRAPHER</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon11" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">CAMERAMAN</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon12" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">SPONSOR</div>
+            </div>
+            <div class="CCC-userStatusChart-verticalBar-container">
+                <div id="CCC-userStatusChart-verticalBar-icon13" class="CCC-userStatusChart-verticalBar-iconG" style="background-image:url('/skins/pic/job icon g.png');background-size:25px;"></div>
+                <div class="CCC-userStatusChart-verticalBar-title">NON PLAYER CHARACTER</div>
+            </div>
+        </div>
+        <div class="CCC-userStatusChart-monitor">
+            <div class="CCC-userStatusChart-monitor-card">
+                <div class="CCC-userStatusChart-monitor-cardL">
+                    <div class="CCC-userStatusChart-monitor-cardLW">CODE</div>
+                    <div class="CCC-userStatusChart-monitor-cardLW">USER NAME</div>
+                </div>
+                <div class="CCC-userStatusChart-monitor-cardR">
+                    <div class="CCC-userStatusChart-monitor-cardRW">ID 000000000000</div>
+                    <div class="CCC-userStatusChart-monitor-slippingBarBox">
+                        <div id="CCC-animation-slippingBar1" class="CCC-animation-slippingBar" style="animation-duration: 0.75s;-moz-animation-duration: 0.75s;-webkit-animation-duration: 0.75s;-o-animation-duration: 0.75s;"></div>
+                    </div>
+                    <div class="CCC-userStatusChart-monitor-slippingBarBox">
+                        <div id="CCC-animation-slippingBar2" class="CCC-animation-slippingBar" style="animation-duration: 0.75s;-moz-animation-duration: 0.75s;-webkit-animation-duration: 0.75s;-o-animation-duration: 0.75s;"></div>
+                    </div>
+                    <div class="CCC-userStatusChart-monitor-slippingBarBox">
+                        <div id="CCC-animation-slippingBar3" class="CCC-animation-slippingBar" style="animation-duration: 0.75s;-moz-animation-duration: 0.75s;-webkit-animation-duration: 0.75s;-o-animation-duration: 0.75s;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="CCC-userStatusChart-monitor-waveBox">
+                <div id="CCC-animation-waveB" class="CCC-animation-wave" style="background-image: url(/skins/pic/waveback1.png);animation-duration: 0.75s;-moz-animation-duration: 0.75s;-webkit-animation-duration: 0.75s;-o-animation-duration: 0.75s;"></div>
+                <div id="CCC-animation-waveF" class="CCC-animation-wave" style="background-image: url(/skins/pic/wavefront1.png);animation-duration: 1.75s;-moz-animation-duration: 1.75s;-webkit-animation-duration: 1.75s;-o-animation-duration: 1.75s;"></div>
+                <div class="CCC-animation-waveCover"></div>
+            </div>
+            <div class="CCC-userstatuschart-monitor-title">LIMIT MONITOR</div>
+        </div>
+        <div class="CCC-userStatusChart-timelineBox">
+            <div class="CCC-userStatusChart-timelineBox-title"></div>
+            <div class="CCC-userStatusChart-timelineBox-timeline">
+                <section id="cd-timeline" class="cd-container">
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>HTML5+CSS3实现的响应式垂直时间轴</h2>
+                            <p>网页时间轴一般用于展示以时间为主线的事件，如企业网站常见的公司发展历程等。本文将给大家介绍一款基于HTML5和CSS3的漂亮的垂直时间轴，它可以响应页面布局，适用于HTML5开发的PC和移动手机WEB应用。</p>
+                            <a href="http://www.helloweba.com/view-blog-285.html" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2015-01-06</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>jQuery+PHP动态数字展示效果</h2>
+                            <p>我们在一些应用中需要动态展示数据，比如当前在线人数，当前交易总额，当前汇率等等，前端页面需要实时刷新获取最新数据。本文将结合实例给大家介绍使用jQuery和PHP来实现动态数字展示效果。</p>
+                            <a href="http://www.helloweba.com/view-blog-284.html" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2014-12-25</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>PHP操作Session和Cookie</h2>
+                            <p>我们跟踪用户信息时需要用到Session和Cookie，比如用户登录验证、记录用户浏览历史，存储购物车数据，限制用户会话有效时间等。今天我们来了解下PHP是如何操作Session和Cookie的。</p>
+                            <a href="http://www.helloweba.com/view-blog-283.html" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2014-12-20</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>jQuery数字加减插件</h2>
+                            <p>我们在网上购物提交订单时，在网页上一般会有一个选择数量的控件，要求买家选择购买商品的件数，开发者会把该控件做成可以通过点击实现加减等微调操作，当然也可以直接输入数字件数。本文将介绍常见的几种使用spinner数字微调器来实现数字加减的功能的方法。</p>
+                            <a href="http://www.helloweba.com/view-blog-282.html" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2014-12-14</span>
+                        </div>
+                    </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>收集整理的非常有用的PHP函数</h2>
+                            <p>项目中经常会需要一些让人头疼的函数，作为开发者应该整理一个自己的函数库，在需要之时复制过来即可。本文作者收集整理数十个PHP项目中常用的函数，保证能正常运行，你只要复制粘贴到你项目中即可。</p>
+                            <a href="http://www.helloweba.com/view-blog-281.html" class="cd-read-more" target="_blank">阅读全文</a>
+                            <span class="cd-date">2014-12-05</span>
+                        </div>
+                    </div>
+                </section>
+                <div class="CCC-userStatusChart-timelineBox-timeline-bottom">START</div>
+            </div>
+        </div>
+        <div class="CCC-userStatusChart-pageLink" style="position:absolute;top:2630px;left:100px;">
+            <div class="CCC-userStatusChart-pageLink-Bar">
+                <a id="CCC-userStatusChart-pageLink-semiBar-first" class="CCC-userStatusChart-pageLink-semiBar">第 &nbsp;1 &nbsp;页&nbsp;&nbsp;</a>
+                <a id="CCC-userStatusChart-pageLink-semiBar-Next" class="CCC-userStatusChart-pageLink-semiBar">&nbsp;&nbsp;下 一 页</a>
+            </div>
+        </div>
+    </div>
+    <!--↑↑↑↑↑↑↑主体部分↑↑↑↑↑↑↑-->
+    <div class="CCC-footer-bg">
+        <div id="CCC-footer-bg1"></div>
+        <div id="CCC-footer-bg2"></div>
+        <div id="CCC-footer-bg3"></div>
+    </div>
+    <div class="CCC-footer-bar">
+        <div id="CCC-footer-bar1" class="CCC-footer-bar">
+            <div class="CCC-footer-slogan"></div>
+            <div class="CCC-footer-info"><a id="CCC-link" href="#" style="color:inherit;">了解我们 ></a></div>
+            <div class="CCC-footer-info-nav">
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">关注我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">团队介绍</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">加入我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">大大招募</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">联系我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">常见问题</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">意见反馈</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">隐私政策</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">商务合作</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">友情链接</a></span>
+            </div>
+        </div>
+        <div id="CCC-footer-bar2" class="CCC-footer-bar">
+            <div class="CCC-footer-bar-pub">
+                <a id="CCC-footer-pub-tag1" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag2" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag3" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag4" class="CCC-footer-pub-tag" href="#"></a>
+            </div>
+        </div>
+        <div id="CCC-footer-bar3" class="CCC-footer-bar">
+            <span class="CCC-copyright">沪ICP备00000000号|Copyright &copy;2016 上海网络科技有限公司 3c-online.club</span>
+        </div>
+    </div>
+    <!--页脚-->
+</body>
+</html>

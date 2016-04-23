@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3C-Online(๑•̀ㅂ•́)و</title>
+    <link rel="shortcut icon" href="/skins/pic/ICON.png" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/CCCstyle.css" />
+    <link type="text/css" rel="stylesheet" href="/skins/css/CCCOtherDataBaseCore.css" />  <!--后端修改url-->
+    <link type="text/css" rel="stylesheet" href="/skins/css/TimeLineStyle.css" />
+    <script type="text/javascript" src="/skins/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/skins/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function checkpsd() {
+            var a = document.getElementById("Q_psd").value;
+            var b = document.getElementById("Q_rpsd").value;
+            if (a == b) {
+                alert("两次输出密码不一致，请重新输入");
+                return false;
+            }
+            else
+                return true;
+        }
+    </script>
+</head>
+<body style="background-color:#ededed;">
+    <div class="CCC-header-bg"></div>
+    <div class="CCC-header">
+        <div class="CCC-page-title-pic"></div>
+        <div class="CCC-nav">
+            <a id="CCC-link" class="CCC-nav-tag" href="#">首页</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">大组</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">活动</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">任务</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">漫客</a>
+            <a id="CCC-link" class="CCC-nav-tag" href="#">影业</a>
+            <div class="CCC-search">
+                <form>
+                    <input type="text" class="CCC-search-keyword" placeholder="奥义♂很爽">
+                    <button type="submit" class="CCC-search-launch"></button>
+                </form>
+            </div>
+            <div class="CCC-account-tag">
+                <div class="CCC-account-tag-btn"><a id="CCC-link" href="#" style="color:inherit;">登录</a></div>
+                <div id="CCC-colorful-egg" class="CCC-account-tag-btn">
+                    <a id="CCC-link" class="CCC-account-tag-btn" href="http://imgsrc.baidu.com/forum/w=580/sign=581796a9bca1cd1105b672288913c8b0/4647d12a2834349ba3f01c1ccfea15ce37d3be1b.jpg"> | </a>
+                </div>
+                <div class="CCC-account-tag-btn"><a id="CCC-link" href="#" style="color:inherit;">注册</a></div>
+            </div>
+        </div>
+        <a id="CCC-nav-publishBtn"></a>
+    </div>
+    <!--[if IE]>
+        <script>
+            alert("我们的前端攻城狮宝宝被您的浏览器内核给吓到了！！（攻城狮：我好方！\n建议试试chrome、firefox、safari或者edge浏览器吧！")
+        </script>
+    <![endif]-->
+    <!--页头-->
+    <!--↓↓↓↓↓↓↓主体部分↓↓↓↓↓↓↓-->
+    <div class="CCC-userInfoBar">
+        <div class="CCC-userInfoBar-title">USER NAME</div>
+        <div id="CCC-userInfoBar-bg1" class="CCC-userInfoBar-bg"></div>
+        <div id="CCC-userInfoBar-bg2" class="CCC-userInfoBar-bg"></div>
+        <div class="CCC-userInfoBar-container">
+            <div id="CCC-userInfoBar-level1" class="CCC-userInfoBar-level">Lv 99</div>  <!--后端数据交互-->
+            <div id="CCC-userInfoBar-avatarDefault"class="CCC-userInfoBar-avatar"></div>
+            <a id="CCC-userInfoBar-avatarSettings" href="#"><div id="CCC-userInfoBar-avatar" class="CCC-userInfoBar-avatar" style="background:url('/skins/pic/sampleAvatar1.gif');background-size: 138%;background-position: -45px -6px;transform: scale(0.66);margin-right: 30px;"></div></a>
+            <div id="CCC-userInfoBar-mark" style="background: url(/skins/pic/mark.png) no-repeat;background-size: contain;"></div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">创造力</span><span id="CCC-userInfoBar-status-tag2">unknown</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">吐槽力</span><span id="CCC-userInfoBar-status-tag2">190</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">精神力</span><span id="CCC-userInfoBar-status-tag2">312</span></div>
+            </div>
+            <div class="CCC-userInfoBar-status">
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">存在感</span><span id="CCC-userInfoBar-status-tag2">937</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">现充度</span><span id="CCC-userInfoBar-status-tag2">12</span></div>
+                <div class="CCC-userInfoBar-status-tag"><span id="CCC-userInfoBar-status-tag1">F F F团</span><span id="CCC-userInfoBar-status-tag2">是</span></div>
+            </div>
+            <div id="CCC-userInfoBar-emphasis1" class="CCC-userInfoBar-status">
+                <span id="CCC-userInfoBar-status-tag3">信用等级</span><span id="CCC-userInfoBar-status-tag4">SSS</span>
+            </div>
+            <div id="CCC-userInfoBar-emphasis2" class="CCC-userInfoBar-status">
+                <div id="CCC-userInfoBar-status-tag5"></div><span id="CCC-userInfoBar-status-tag6">8435C</span>
+            </div>
+        </div>
+    </div>
+    <div class="CCC-userStatusChart">
+        <div class="CCC-userStatusChart-navbar">
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon1" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">个人资料</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon2" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的活动</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon3" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的任务</div>
+                </div>
+                
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon4" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">作品盒子</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-inner">
+                    <div id="CCC-userStatusChart-navbar-btn-icon5" class="CCC-userStatusChart-navbar-btn-icon"></div>
+                    <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的话题</div>
+                </div>
+            </a>
+            <a id="CCC-userStatusChart-navbar-btn-link" class="CCC-userStatusChart-navbar-btn">
+                <div class="CCC-userStatusChart-navbar-btn-words Q-center">我的世界</div>
+            </a>
+        </div>
+    </div>
+    <!--↓↓↓↓↓↓↓2016/4 by YQ ↓↓↓↓↓↓↓-->
+    <div class="Q-MCbody">
+        <div class="Q-MCdays Q-center"><span class="Q-MCdaynum">90</span>&nbsp&nbspDays</div>
+        <div class="Q-center"><button class="Q-btnBlue" data-toggle="modal" data-target="#myModal-1">续一波</button>
+        </div>
+        <div class="Q-MCFormBox">
+            <div class="Q-MCFormIcon"><img src="/skins/pic/MC.png"></div>
+            <div class="Q-MCInfo">
+                <div class="Q-MCEditBtn"><button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal-2">修改密码</button></div>
+                <div class="Q-MCInfoText">
+                    <p>MC用户名&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span>USER NAME</span><br>
+                       其他的信息&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span>这是其他信息其他的信息</span><br>
+                       其他的信息&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span>这是其他信息其他的信息</span>
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!--续费弹出框↓-->
+        <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header Q-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <img src="/skins/pic/MC.png" width="200" height="200">
+                </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                    <label for="requstcode" class="col-sm-2 control-label">邀请码</label>
+                    <div class="col-sm-10 col-lg-6">
+                    <input type="text" name="" class="form-control" id="requstcode">
+                    </div>
+                    <span class="help-block" style="margin-top: 1.5px">
+                    <button type="button" class="Q-btnOrange">点击获取邀请码</button>
+                    </span>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer Q-center">
+                <button type="button" class="Q-btnBlue">
+                        递交
+                </button>
+            </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+    <script type="text/javascript">
+      $(function(){
+        // dom加载完毕
+        var $m_btn = $('#modalBtn');
+        var $modal = $('#myModal-1');
+        $m_btn.on('click', function(){
+          $modal.modal({backdrop: 'static'});
+        });
+
+        // 测试 bootstrap 居中
+        $modal.on('show.bs.modal', function(){
+          var $this = $(this);
+          var $modal_dialog = $this.find('.modal-dialog');
+          // 关键代码，如没将modal设置为 block，则$modala_dialog.height() 为零
+          $this.css('display', 'block');
+          $modal_dialog.css({'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2) });
+        });
+        
+      });
+    </script>
+    <!--续费弹出框↑-->
+    <!--修改密码弹出框↓-->
+    <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header Q-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <img src="/skins/pic/MC.png" width="200" height="200">
+                </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                    <label for="password" class="col-sm-2 control-label">3C密码</label>
+                    <div class="col-sm-10">
+                    <input type="password" name="3COL_psd" class="form-control">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="newpassword" class="col-sm-2 control-label">MC密码</label>
+                    <div class="col-sm-10">
+                    <input type="password" name="psd" id="Q_psd" class="form-control" placeholder="请输入6-16大小写字母或数字">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="repassword" class="col-sm-2 control-label">重复密码</label>
+                    <div class="col-sm-10">
+                    <input type="password" id="Q_rpsd" class="form-control" placeholder="请重复输入密码">
+                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer Q-center">
+                <button type="button" class="Q-btnBlue">
+                        递交
+                </button>
+            </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script type="text/javascript">
+      $(function(){
+        // dom加载完毕
+        var $m_btn = $('#modalBtn');
+        var $modal = $('#myModal-2');
+        $m_btn.on('click', function(){
+          $modal.modal({backdrop: 'static'});
+        });
+
+        // 测试 bootstrap 居中
+        $modal.on('show.bs.modal', function(){
+          var $this = $(this);
+          var $modal_dialog = $this.find('.modal-dialog');
+          // 关键代码，如没将modal设置为 block，则$modala_dialog.height() 为零
+          $this.css('display', 'block');
+          $modal_dialog.css({'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2) });
+        });
+        
+      });
+    </script>
+    <!--修改密码弹出框↑-->
+    <!--↑↑↑↑↑↑↑2016/4 by YQ↑↑↑↑↑↑↑-->
+    
+    <!--↑↑↑↑↑↑↑主体部分↑↑↑↑↑↑↑-->
+    <div class="CCC-footer-bg">
+        <div id="CCC-footer-bg1"></div>
+        <div id="CCC-footer-bg2"></div>
+        <div id="CCC-footer-bg3"></div>
+    </div>
+    <div class="CCC-footer-bar">
+        <div id="CCC-footer-bar1" class="CCC-footer-bar">
+            <div class="CCC-footer-slogan"></div>
+            <div class="CCC-footer-info"><a id="CCC-link" href="#">了解我们 ></a></div>
+            <div class="CCC-footer-info-nav">
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">关注我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">团队介绍</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">加入我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">大大招募</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">联系我们</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">常见问题</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">意见反馈</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">隐私政策</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">商务合作</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-colorful-egg">|</a></span>
+                <span class="CCC-footer-info-nav-tag"><a id="CCC-link" href="#" style="color:inherit;">友情链接</a></span>
+            </div>
+        </div>
+        <div id="CCC-footer-bar2" class="CCC-footer-bar">
+            <div class="CCC-footer-bar-pub">
+                <a id="CCC-footer-pub-tag1" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag2" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag3" class="CCC-footer-pub-tag" href="#"></a>
+                <a id="CCC-footer-pub-tag4" class="CCC-footer-pub-tag" href="#"></a>
+            </div>
+        </div>
+        <div id="CCC-footer-bar3" class="CCC-footer-bar">
+            <span class="CCC-copyright">沪ICP备00000000号|Copyright &copy;2016 上海网络科技有限公司 3c-online.club</span>
+        </div>
+    </div>
+    <!--页脚-->
+</body>
+</html>
