@@ -23,10 +23,10 @@
             <a id="CCC-link" class="CCC-nav-tag" href="#">漫客</a>
             <a id="CCC-link" class="CCC-nav-tag" href="#">影业</a>
             <div class="CCC-search">
-                <form>
+                
                     <input type="text" class="CCC-search-keyword" placeholder="奥义♂很爽" />
                     <button type="submit" class="CCC-search-launch"></button>
-                </form>
+                
             </div>
             <div class="CCC-account-tag">
                 <div class="CCC-account-tag-btn"><a id="CCC-link" href="#" style="color:inherit;">登录</a></div>
@@ -52,61 +52,51 @@
         </div>
         <div class="CCC-activityPublish-Container">
             <div class="CCC-activityPublish-ContainerL">
-                <div class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">团队名称</div>
-                    <div class="form-group CCC-activityPublish-Block-Container">
-                        <input type="url" class="form-control CCC-activityPublish-input" />
+                <form>
+                    <div class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">团队名称</div>
+                        <div class="form-group CCC-activityPublish-Block-Container">
+                            <input name="GroupName" type="url" class="form-control CCC-activityPublish-input" />
+                        </div>
                     </div>
-                </div>
-                <div class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">团队照片</div>
-                    <div class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <input type="url" class="form-control CCC-activityPublish-inputUrl" placeholder="还没选择封面" />
+                    <div class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">团队照片</div>
+                        <div class="form-group CCC-activityPublish-Block-Container">
+                            <input name="GroupPhoto" type="url" class="form-control CCC-activityPublish-inputUrl" placeholder="还没选择封面" />
                             <button class="CCC-activityPublish-inputBtn">选择图片</button>
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <div class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">团队人数</div>
-                    <div class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <input type="number" id="CCC-groupPN" class="form-control CCC-activityPublish-input" />
-                        </form>
+                    <div class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">团队人数</div>
+                        <div class="form-group CCC-activityPublish-Block-Container">
+                            <input name="GroupScale" type="number" id="CCC-groupPN" class="form-control CCC-activityPublish-input" />
+                        </div>
+                        <span class="CCC-groupP">人</span>
                     </div>
-                    <span class="CCC-groupP">人</span>
-                </div>
-                <div class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">联系方式</div>
-                    <div class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <input type="text" placeholder="手机号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
-                            <input type="text" placeholder="QQ号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
-                            <input type="text" placeholder="微信号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
-                        </form>
+                    <div class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">联系方式</div>
+                        <div class="form-group CCC-activityPublish-Block-Container">
+                            <input name="PhoneNumber" type="text" placeholder="手机号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
+                            <input name="QQID" type="text" placeholder="QQ号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
+                            <input name="WeixinID" type="text" placeholder="微信号" id="CCC-groupInfoL" class="form-control CCC-activityPublish-input" />
+                        </div>
                     </div>
-                </div>
-                <div id="CCC-activityPublish-BlockAbstract" class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">团队简介</div>
-                    <div id="CCC-activityPublish-Block-Container-ActivityAbstract" class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <textarea id="CCC-activityPublish-inputAreaAbstract" type="text" class="form-control CCC-activityPublish-inputArea"></textarea>
-                        </form>
+                    <div id="CCC-activityPublish-BlockAbstract" class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">团队简介</div>
+                        <div id="CCC-activityPublish-Block-Container-ActivityAbstract" class="form-group CCC-activityPublish-Block-Container">
+                            <textarea name="GroupAbstract" id="CCC-activityPublish-inputAreaAbstract" type="text" class="form-control CCC-activityPublish-inputArea"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div id="CCC-activityPublish-BlockAbstract" class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">荣获奖项</div>
-                    <div id="CCC-activityPublish-Block-Container-ActivityAbstract" class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <textarea id="CCC-activityPublish-inputAreaAbstract" type="text" class="form-control CCC-activityPublish-inputArea"></textarea>
-                        </form>
+                    <div id="CCC-activityPublish-BlockAbstract" class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">荣获奖项</div>
+                        <div id="CCC-activityPublish-Block-Container-ActivityAbstract" class="form-group CCC-activityPublish-Block-Container">
+                            <textarea name="HonoredAward" id="CCC-activityPublish-inputAreaAbstract" type="text" class="form-control CCC-activityPublish-inputArea"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">演出类型</div>
-                    <div class="form-group CCC-activityPublish-Block-Container">
-                        <form>
-                            <select name="type" class="form-control CCC-activityPublish-select">
+                    <div class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">演出类型</div>
+                        <div class="form-group CCC-activityPublish-Block-Container">
+                            <select name="PerformanceType" class="form-control CCC-activityPublish-select">
                                 <option value="">类型</option>
                                 <option value="dance">宅舞</option>
                                 <option value="band">乐队</option>
@@ -114,7 +104,7 @@
                                 <option value="song">歌团</option>
                                 <option value="other">其他</option>
                             </select>
-                            <select name="style" class="form-control CCC-activityPublish-select">
+                            <select name="PerformanceStyle" class="form-control CCC-activityPublish-select">
                                 <option value="">风格</option>
                                 <option value="ancient">古风</option>
                                 <option value="waga">和风</option>
@@ -123,13 +113,11 @@
                                 <option value="Eu&Am">欧美</option>
                                 <option value="other">其他</option>
                             </select>
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <div id="CCC-group-parent" class="CCC-activityPublish-Block">
-                    <div class="CCC-activityPublish-Block-Title">团队成员</div>
-                    <form>
-                        <select name="style" class="form-control CCC-activityPublish-select">
+                    <div id="CCC-group-parent" class="CCC-activityPublish-Block">
+                        <div class="CCC-activityPublish-Block-Title">团队成员</div>
+                        <select name="MemberJob0" class="form-control CCC-activityPublish-select">
                             <option value="">团队职务</option>
                             <option value="leader">团长</option>
                             <option value="member">组员</option>
@@ -138,18 +126,16 @@
                             <option value="npc">场务</option>
                             <option value="other">其他</option>
                         </select>
-                    </form>
-                    <div class="form-group CCC-activityPublish-Block-Container CCC-group-text">
-                        <form style="float:left;">
-                            <input type="text" id="CCC-groupN" class="form-control CCC-activityPublish-input" />
+                        <div class="form-group CCC-activityPublish-Block-Container CCC-group-text">
+                            <input name="MemberID0" type="text" id="CCC-groupN" class="form-control CCC-activityPublish-input" />
                             <span id="CCC-groupN-AT" class="CCC-activityPublish-inputPriceTag">@</span>
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <button class="btn CCC-groupADD-btn" onclick="addElementDiv('CCC-group-parent')">新增一名团队成员</button>
-                <div class="CCC-activityPublish-Block">
-                    <a id="CCC-PublishBtn">递交</a>
-                </div>
+                    <button class="btn CCC-groupADD-btn" type="button" onclick="addElementDiv('CCC-group-parent')">新增一名团队成员</button>
+                    <div class="CCC-activityPublish-Block">
+                        <input type="submit" id="CCC-PublishBtn">
+                    </div>
+                </form>
             </div>
             <div class="CCC-activityPublish-ContainerR">
                 <div id="CCC-tile-clearer" class="CCC-mainContainer-activity-tile">
